@@ -1,0 +1,10 @@
+.school-list{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 5px;
+}
+
+.school-list .headers{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}

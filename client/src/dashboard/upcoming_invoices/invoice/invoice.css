@@ -1,0 +1,39 @@
+.invoice{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 20px 5px;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: rgb(227, 227, 227);
+}
+
+.invoice button{
+    padding: 7px 15px;
+    background-color: rgb(1, 1, 194);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.invoice button:hover{
+    cursor: pointer;
+    background-color: green;
+}
+
+.invoice form div{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    text-align: start;
+}
+
+.invoice form > * > *{
+    margin: 5px;
+    padding: 5px;
+}
+
+.invoice form div input{
+    border: none;
+    border-radius: 10px;
+}

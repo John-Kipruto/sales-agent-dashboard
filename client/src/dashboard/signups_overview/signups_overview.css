@@ -1,0 +1,27 @@
+/* .signups-overview .grid-container{
+    grid-template-columns: 1fr 1fr 1fr;
+} */
+
+.signups-overview .flex-container{
+    grid-column: span 3;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.signups-overview .flex-container > *{
+    width: 30%;
+    text-align: center;
+}
+
+.signups-overview .color-contents, .signups-overview .color-info{
+    display: flex;
+    justify-content: center;
+}
+
+.signups-overview .color-contents > * {
+   margin: 10px;
+}
+
+.signups-overview .color-info > *{
+    margin: auto 5px;
+}

@@ -1,0 +1,36 @@
+.socials{
+    padding: 20px 5px;
+}
+
+.socials .stats{
+    text-align: start;
+    padding: 5px 0;
+    color: rgb(113, 113, 113);
+    font-size: 0.9rem;
+}
+
+.socials .activity{
+    padding: 15px 5px;
+}
+
+.bi-facebook, .bi-twitter, .bi-linkedin{
+    color: blue;
+}
+
+.bi-instagram{
+    color: brown;
+}
+
+.bi-youtube{
+    color: red;
+}
+
+.bi-arrow-up{
+    color: green;
+    font-size: 20px;
+}
+
+.bi-arrow-down{
+    color: red;
+    font-size: 20px;
+}

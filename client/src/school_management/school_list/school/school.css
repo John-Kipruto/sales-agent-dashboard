@@ -1,0 +1,26 @@
+.school{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 20px 5px;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: rgb(212, 210, 210);
+}
+
+.school:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.school button{
+    padding: 5px 10px;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+.school button:hover{
+    background-color: green;
+    cursor: pointer;
+}

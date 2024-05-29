@@ -1,0 +1,49 @@
+.chart-container{
+    max-height: 420px;
+    aspect-ratio: 1;
+    margin: auto;
+}
+
+.product-pie{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.product-pie .colors-info > *{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    height: 15px;
+    margin: 6px;
+}
+
+.product-pie .colors-info > * > *{
+    padding: 0 2px;
+}
+
+.pie{
+    position: relative;
+}
+
+.pie .tool-tip-text{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    visibility: hidden;
+}
+
+.pie .tool-tip-text > *{
+    padding: 3px;
+}
+
+.pie:hover{
+    cursor: pointer;
+}
+
+.pie:hover .tool-tip-text{
+    visibility: visible;
+}

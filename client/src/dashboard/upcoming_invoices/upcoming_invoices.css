@@ -1,0 +1,37 @@
+.upcoming-invoices{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 20px 5px;
+}
+
+.upcoming-invoices::-webkit-scrollbar{
+    width: 5px;
+}
+
+.upcoming-invoices::-webkit-scrollbar-track{
+    background-color: grey;
+}
+
+.upcoming-invoices::-webkit-scrollbar-thumb { 
+    background: gold; 
+} 
+
+.upcoming-invoices .modal{
+    width: 350px;
+    height: 350px;
+    background-color: rgb(221, 221, 220);
+    border-radius: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.invoice-headers{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 10px 5px;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: rgb(227, 227, 227);
+}

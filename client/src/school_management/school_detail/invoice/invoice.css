@@ -1,0 +1,23 @@
+.invoice{
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+}
+
+.invoice .delete-btn{
+    background-color: red;
+}
+
+.school-detail .modal{
+    width: 350px;
+    height: 350px;
+    background-color: rgb(221, 221, 220);
+    border-radius: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.school-detail .invoice .modal p{
+    justify-content: center;
+}

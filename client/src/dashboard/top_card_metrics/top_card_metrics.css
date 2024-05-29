@@ -1,0 +1,8 @@
+
+
+.top-card-metrics .grid-container > *{
+    background-color: white;
+    aspect-ratio: 16 / 7;
+    padding:15px;
+    border-radius: 10px;
+}

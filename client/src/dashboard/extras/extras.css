@@ -1,0 +1,7 @@
+.extras.grid-container{
+    background-color: whitesmoke;
+}
+
+.extras.grid-container > *{
+    background-color: white;
+}

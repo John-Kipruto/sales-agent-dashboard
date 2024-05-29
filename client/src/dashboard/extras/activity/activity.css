@@ -1,0 +1,94 @@
+.activities{
+    padding: 20px 5px;
+}
+
+.activity{
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    gap: 20px;
+    padding: 23px 5px;
+    border-bottom: solid;
+    border-color: rgb(219, 217, 217);
+    border-width: 1px;
+}
+
+.activity .descr{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.activity .outer{
+    height: 5px;
+    background-color: grey;
+    border-radius: 6px;
+    margin: 5px 0;
+}
+
+.activity .inner{
+    width: 70%;
+    height: 100%;
+    border-radius: inherit;
+}
+
+.activity .gold{
+    background-color: gold;
+}
+
+.activity .blue{
+    background-color: blue;
+}
+
+.activity .green{
+    background-color: green;
+}
+
+.activity .red{
+    background-color: red;
+}
+
+.activity .purple{
+    background-color: purple;
+}
+
+.activity .black{
+    background-color: black;
+}
+
+.activities .activity .icon{
+    aspect-ratio: 1;
+    display: grid;
+    place-items: center;
+    background-color: grey;
+    border-radius: 50%;
+    color: white;
+}
+
+.activity .icon i{
+    font-size: 30px;
+}
+
+.activities .activity .lightgreen{
+    background-color: lightgreen;
+    color: green;
+}
+
+.activities .activity .lightblue{
+    background-color: lightblue;
+    color: blue;
+}
+
+.activities .activity .lightpurple{
+    background-color: rgb(247, 203, 247);
+    color: purple;
+}
+
+.activities .activity .lightred{
+    background-color: rgb(243, 210, 210);
+    color: red;
+}
+
+.activities .activity .lightgold{
+    background-color: rgb(248, 242, 213);
+    color: gold;
+}
