@@ -2,10 +2,10 @@
   "name": "mock_server",
   "version": "1.0.0",
   "description": "A mock server for the agent dashboard",
-  "main": "index.js",
+  "main": "api/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node api/server.js"
   },
   "author": "John Kipruto",
   "license": "MIT",
