@@ -74,8 +74,6 @@ function App() {
           <Route exact path='/school-detail' element={<SchoolDetail />} />
         </Routes>
       </AppContext.Provider>
-     <h1>My First App</h1>
-      
     </div>
   );
 }
