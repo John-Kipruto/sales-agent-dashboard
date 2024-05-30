@@ -55,16 +55,16 @@ function App() {
     }
   }
 
-  // useEffect(() => {
-  //   fetchCollections()
-  //   fetchInvoices()
-  //   fetchProducts()
-  //   fetchSchools()
-  // }, [])
+  useEffect(() => {
+    fetchCollections()
+    fetchInvoices()
+    fetchProducts()
+    fetchSchools()
+  }, [])
 
   return (
     <div className="App">
-      {/* <AppContext.Provider value={{...contextValues}}>
+      <AppContext.Provider value={{...contextValues}}>
          <Routes>
           <Route exact path='/' element={<Home />} />
           <Route exact path='/dashboard' element={<Dashboard />} />
@@ -72,7 +72,7 @@ function App() {
           <Route exact path='/schools-list' element={<SchoolManagement />} />
           <Route exact path='/school-detail' element={<SchoolDetail />} />
         </Routes>
-      </AppContext.Provider> */}
+      </AppContext.Provider>
      <h1>My First App</h1>
       
     </div>
