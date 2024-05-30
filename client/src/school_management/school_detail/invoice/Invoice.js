@@ -45,6 +45,7 @@ const Invoice = ({invoice}) => {
             const invoicesResponse = await fetch(`${apiUrl}/invoices`)
             if(invoicesResponse.ok){
                 const invoicesResult = await invoicesResponse.json()
+                console.log("Invoice results", invoicesResult)
                 setInvoices(invoicesResult)
             }
             alert("Invoice Updated Successfully")
