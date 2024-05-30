@@ -9,7 +9,8 @@ import { useEffect, useState } from 'react';
 
 function App() {
 
-  const apiUrl = "http://localhost:8888/.netlify/functions"
+  // let apiUrl = "http://localhost:8888/.netlify/functions"
+  let apiUrl = "https://sales-mi.netlify.app/.netlify/functions"
 
   const [componentToDisplay, setComponentToDisplay] = useState("dashboard")
 
