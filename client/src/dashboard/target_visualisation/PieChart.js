@@ -27,13 +27,13 @@ return (
       <div class="pie" style={{
          width: "100%",
          aspectRatio: "1",
-         backgroundImage: `conic-gradient(${colors[0]} ${(((product.goalTarget-product.schools.length) / product.goalTarget) * 100)}%, ${colors[1]} ${((product.schools.length / product.goalTarget) * 100)}%)`,
+         backgroundImage: `conic-gradient(${colors[0]} ${(((product.signupGoal-product.schools.length) / product.signupGoal) * 100)}%, ${colors[1]} ${((product.schools.length / product.signupGoal) * 100)}%)`,
          borderRadius: "50%",
       }}>
         <div className='tool-tip-text'>
-          <div>Product Target: {product.goalTarget}</div>
+          <div>Product Target: {product.signupGoal}</div>
           <div>Target Achieved: {product.schools.length}</div>
-          <div>Target Left: {product.goalTarget - product.schools.length}</div>
+          <div>Target Left: {product.signupGoal - product.schools.length}</div>
         </div>
       </div>
     </div>

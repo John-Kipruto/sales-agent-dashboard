@@ -27,7 +27,7 @@
     transform: translate(-50%, -50%);
 }
 
-.invoice-headers{
+.dashboard .invoice-headers{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     padding: 10px 5px;

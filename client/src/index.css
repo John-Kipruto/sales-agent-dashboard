@@ -3,3 +3,21 @@ body{
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
 }
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+ul{
+  list-style-type: none;
+}
+
+::-webkit-scrollbar{
+  width: 6px;
+}
+
+
+::-webkit-scrollbar-thumb{
+  background-color: rgb(31, 30, 29);
+}

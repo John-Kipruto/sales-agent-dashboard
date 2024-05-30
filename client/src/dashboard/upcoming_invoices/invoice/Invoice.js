@@ -1,11 +1,15 @@
+import AppContext from '../../../context/AppContext';
 import './invoice.css'
-import {useState} from 'react'
+import {useContext, useState} from 'react'
 
 const Invoice = ({invoice}) => {
+    const {apiUrl, setCollections} = useContext(AppContext)
     const [modalVisibility, setModalVisibility] = useState("hidden");
     const [collectionDetails, setCollectionDetails] = useState({
 
-        "invoiceId": 1,
+        "invoiceId": invoice.id,
+        "schoolId": invoice.schoolId,
+        "productId": invoice.productId,
         "collectionDate": Date.now(),
         "status": "valid",
         "amount": 0
@@ -24,10 +28,32 @@ const Invoice = ({invoice}) => {
         setCollectionDetails({...collectionDetails, [event.target.id]: event.target.value})
     }
 
-    const handleSubmit = (event) => {
+    const handleSubmit = async (event) => {
         hideModal()
         event.preventDefault()
-        alert("Collection Submitted Successfully")
+
+        // Create a new collection for the invoice
+        const response = await fetch(`${apiUrl}/collections`, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({...collectionDetails})
+        })
+
+        if(response.ok){
+            alert("Collection Submitted Successfully")
+
+            // Get new collection list to update current list
+            const collectionResponse = await fetch(`${apiUrl}/collections`)
+            if(collectionResponse.ok){
+                const newCollectionList = await collectionResponse.json()
+                setCollections(newCollectionList)
+            }
+        } else{
+            alert("Error creating collection")
+        }
+        
     }
 
   return (

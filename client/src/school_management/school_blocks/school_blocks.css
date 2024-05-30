@@ -1,0 +1,28 @@
+.school-blocks{
+    background-color: whitesmoke;
+    padding: 30px 5px;
+}
+
+.school-blocks .grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 20px;
+}
+
+.school-blocks .grid-container > *{
+    display: block;
+    background-color: white;
+    aspect-ratio: 1;
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+}
+
+.school-block h1{
+    font-size: 45px;
+}
+
+.school-block:hover{
+    background-color: rgb(243, 235, 191);
+    
+}

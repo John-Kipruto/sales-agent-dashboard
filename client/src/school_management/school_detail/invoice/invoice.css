@@ -1,6 +1,12 @@
-.invoice{
+.school-detail .invoice{
     display: grid;
-    grid-template-columns: repeat(6, auto);
+    grid-template-columns: repeat(6, 1fr);
+    
+    padding: 20px 5px;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: rgb(227, 227, 227);
+    
 }
 
 .invoice .delete-btn{
@@ -16,8 +22,43 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    display: grid;
+    place-items: center;
+}
+
+
+
+.school-detail .update-modal{
+    height: 400px;
+    place-items: start;
+    justify-content: center;
 }
 
 .school-detail .invoice .modal p{
     justify-content: center;
 }
+
+.invoice .btns-container{
+    display: flex;
+    justify-content: center;
+}
+
+.invoice .btns-container > *{
+    margin: 7px;
+    padding: 7px 15px;
+}
+
+.invoice .no-btn{
+    background-color: green;
+    color: white;
+}
+
+.invoice .yes-btn{
+    background-color: red;
+    color: white;
+}
+
+.invoice .yes-btn:hover{
+    background-color: red;
+}
+

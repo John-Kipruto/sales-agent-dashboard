@@ -1,1558 +1,1663 @@
 {
-    "products": [
+  "products": [
+    {
+      "id": "1",
+      "name": "Zeraki Analytics",
+      "description": "analytics",
+      "signupGoal": 15,
+      "schools": [
         {
-            "id": "1",
-            "name": "Zeraki Analytics",
-            "description": "analytics",
-            "signupGoal": 15,
-            "schools":[
-                {
-                    "id": "1",
-                    "name": "High Fliers",
-                    "type": "Primary",
-                    "county": "Nairobi",
-                    "registrationDate": "2023-08-20",
-                    "contactInfo": {
-                        "email": "highfliers@gmail.com",
-                        "phone": "+254 759908112"
-                    }
-                },
-                {
-                    "id": "2",
-                    "name": "kenya Highlands",
-                    "type": "Secondary",
-                    "county": "Mombasa",
-                    "registrationDate": "2023-11-19",
-                    "contactInfo": {
-                        "email": "highlandsseckenya@gmail.com",
-                        "phone": "+254 778890034"
-                    }
-                },
-                {
-                    "id": "3",
-                    "name": "Maji Mazuri",
-                    "type": "IGSCE",
-                    "county": "Nakuru",
-                    "registrationDate": "2024-01-15",
-                    "contactInfo": {
-                        "email": "majimazuri@gmail.com",
-                        "phone": "+254 765555333"
-                    }
-                },
-                {
-                    "id": "4",
-                    "name": "Elimu Bora",
-                    "type": "Primary",
-                    "county": "Kakamega",
-                    "registrationDate": "2023-09-15",
-                    "contactInfo": {
-                        "email": "elimu@gmail.com",
-                        "phone": "+254 675444999"
-                    }
-                },
-                {
-                    "id": "5",
-                    "name": "Nairobi High School",
-                    "type": "Secondary",
-                    "county": "Nairobi",
-                    "registrationDate": "2023-11-15",
-                    "contactInfo": {
-                        "email": "nairobihigh@gmail.com",
-                        "phone": "+254 754234456"
-                    }
-                },
-                {
-                    "id": "6",
-                    "name": "St. James Biku",
-                    "type": "IGSCE",
-                    "county": "Kilifi",
-                    "registrationDate": "2024-01-17",
-                    "contactInfo": {
-                        "email": "jamesbikust@gmail.com",
-                        "phone": "+254 777900841"
-                    }
-                },
-                {
-                    "id": "7",
-                    "name": "St. Patrics Litein",
-                    "type": "IGSCE",
-                    "county": "Kericho",
-                    "registrationDate": "2023-08-15",
-                    "contactInfo": {
-                        "email": "patrics.sts.litein@gmail.com",
-                        "phone": "+254 356786555"
-                    }
-                }
-            ]
+          "id": "1",
+          "name": "High Fliers",
+          "type": "Primary",
+          "county": "Nairobi",
+          "registrationDate": "2023-08-20",
+          "contactInfo": {
+            "email": "highfliers@gmail.com",
+            "phone": "+254 759908112"
+          }
         },
         {
-            "id":"2",
-            "name": "Zeraki Finance",
-            "description": "finance",
-            "signupGoal": 20,
-            "schools":[
-                {
-                    "id": "1",
-                    "name": "High Fliers",
-                    "type": "Primary",
-                    "county": "Nairobi",
-                    "registrationDate": "2023-08-20",
-                    "contactInfo": {
-                        "email": "highfliers@gmail.com",
-                        "phone": "+254 759908112"
-                    }
-                },
-                {
-                    "id": "2",
-                    "name": "kenya Highlands",
-                    "type": "Secondary",
-                    "county": "Mombasa",
-                    "registrationDate": "2023-11-19",
-                    "contactInfo": {
-                        "email": "highlandsseckenya@gmail.com",
-                        "phone": "+254 778890034"
-                    }
-                },
-                {
-                    "id": "3",
-                    "name": "Maji Mazuri",
-                    "type": "IGSCE",
-                    "county": "Nakuru",
-                    "registrationDate": "2024-01-15",
-                    "contactInfo": {
-                        "email": "majimazuri@gmail.com",
-                        "phone": "+254 765555333"
-                    }
-                },
-                {
-                    "id": "4",
-                    "name": "Elimu Bora",
-                    "type": "Primary",
-                    "county": "Kakamega",
-                    "registrationDate": "2023-09-15",
-                    "contactInfo": {
-                        "email": "elimu@gmail.com",
-                        "phone": "+254 675444999"
-                    }
-                },
-                {
-                    "id": "5",
-                    "name": "Nairobi High School",
-                    "type": "Secondary",
-                    "county": "Nairobi",
-                    "registrationDate": "2023-11-15",
-                    "contactInfo": {
-                        "email": "nairobihigh@gmail.com",
-                        "phone": "+254 754234456"
-                    }
-                },
-                {
-                    "id": "6",
-                    "name": "St. James Biku",
-                    "type": "IGSCE",
-                    "county": "Kilifi",
-                    "registrationDate": "2024-01-17",
-                    "contactInfo": {
-                        "email": "jamesbikust@gmail.com",
-                        "phone": "+254 777900841"
-                    }
-                },
-                {
-                    "id": "7",
-                    "name": "St. Patrics Litein",
-                    "type": "IGSCE",
-                    "county": "Kericho",
-                    "registrationDate": "2023-08-15",
-                    "contactInfo": {
-                        "email": "patrics.sts.litein@gmail.com",
-                        "phone": "+254 356786555"
-                    }
-                }
-            ]
+          "id": "2",
+          "name": "kenya Highlands",
+          "type": "Secondary",
+          "county": "Mombasa",
+          "registrationDate": "2023-11-19",
+          "contactInfo": {
+            "email": "highlandsseckenya@gmail.com",
+            "phone": "+254 778890034"
+          }
         },
         {
-            "id": "3",
-            "name": "Zeraki Timetable",
-            "description": "timetable",
-            "signupGoal": 18,
-            "schools":[
-                {
-                    "id": "1",
-                    "name": "High Fliers",
-                    "type": "Primary",
-                    "county": "Nairobi",
-                    "registrationDate": "2023-08-20",
-                    "contactInfo": {
-                        "email": "highfliers@gmail.com",
-                        "phone": "+254 759908112"
-                    }
-                },
-                {
-                    "id": "2",
-                    "name": "kenya Highlands",
-                    "type": "Secondary",
-                    "county": "Mombasa",
-                    "registrationDate": "2023-11-19",
-                    "contactInfo": {
-                        "email": "highlandsseckenya@gmail.com",
-                        "phone": "+254 778890034"
-                    }
-                },
-                {
-                    "id": "3",
-                    "name": "Maji Mazuri",
-                    "type": "IGSCE",
-                    "county": "Nakuru",
-                    "registrationDate": "2024-01-15",
-                    "contactInfo": {
-                        "email": "majimazuri@gmail.com",
-                        "phone": "+254 765555333"
-                    }
-                },
-                {
-                    "id": "4",
-                    "name": "Elimu Bora",
-                    "type": "Primary",
-                    "county": "Kakamega",
-                    "registrationDate": "2023-09-15",
-                    "contactInfo": {
-                        "email": "elimu@gmail.com",
-                        "phone": "+254 675444999"
-                    }
-                },
-                {
-                    "id": "5",
-                    "name": "Nairobi High School",
-                    "type": "Secondary",
-                    "county": "Nairobi",
-                    "registrationDate": "2023-11-15",
-                    "contactInfo": {
-                        "email": "nairobihigh@gmail.com",
-                        "phone": "+254 754234456"
-                    }
-                },
-                {
-                    "id": "6",
-                    "name": "St. James Biku",
-                    "type": "IGSCE",
-                    "county": "Kilifi",
-                    "registrationDate": "2024-01-17",
-                    "contactInfo": {
-                        "email": "jamesbikust@gmail.com",
-                        "phone": "+254 777900841"
-                    }
-                },
-                {
-                    "id": "7",
-                    "name": "St. Patrics Litein",
-                    "type": "IGSCE",
-                    "county": "Kericho",
-                    "registrationDate": "2023-08-15",
-                    "contactInfo": {
-                        "email": "patrics.sts.litein@gmail.com",
-                        "phone": "+254 356786555"
-                    }
-                }
-            ]
+          "id": "3",
+          "name": "Maji Mazuri",
+          "type": "IGSCE",
+          "county": "Nakuru",
+          "registrationDate": "2024-01-15",
+          "contactInfo": {
+            "email": "majimazuri@gmail.com",
+            "phone": "+254 765555333"
+          }
+        },
+        {
+          "id": "4",
+          "name": "Elimu Bora",
+          "type": "Primary",
+          "county": "Kakamega",
+          "registrationDate": "2023-09-15",
+          "contactInfo": {
+            "email": "elimu@gmail.com",
+            "phone": "+254 675444999"
+          }
+        },
+        {
+          "id": "5",
+          "name": "Nairobi High School",
+          "type": "Secondary",
+          "county": "Nairobi",
+          "registrationDate": "2023-11-15",
+          "contactInfo": {
+            "email": "nairobihigh@gmail.com",
+            "phone": "+254 754234456"
+          }
+        },
+        {
+          "id": "6",
+          "name": "St. James Biku",
+          "type": "IGSCE",
+          "county": "Kilifi",
+          "registrationDate": "2024-01-17",
+          "contactInfo": {
+            "email": "jamesbikust@gmail.com",
+            "phone": "+254 777900841"
+          }
+        },
+        {
+          "id": "7",
+          "name": "St. Patrics Litein",
+          "type": "IGSCE",
+          "county": "Kericho",
+          "registrationDate": "2023-08-15",
+          "contactInfo": {
+            "email": "patrics.sts.litein@gmail.com",
+            "phone": "+254 356786555"
+          }
         }
-    ],
-    "schools": [
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Zeraki Finance",
+      "description": "finance",
+      "signupGoal": 20,
+      "schools": [
         {
-            "id": "1",
-            "name": "High Fliers",
-            "type": "Primary",
-            "county": "Nairobi",
-            "registrationDate": "2023-08-20",
-            "contactInfo": {
-                "email": "highfliers@gmail.com",
-                "phone": "+254 759908112"
-            },
-            "products": [
-                {
-                    "id":"1",
-                    "name": "Zeraki Analytics"
-                },
-                {
-                    "id":"2",
-                    "name":"Zeraki Finance"
-                },
-                {
-                    "id":"3",
-                    "name":"Zeraki Timetable"
-                }
-            ]
+          "id": "1",
+          "name": "High Fliers",
+          "type": "Primary",
+          "county": "Nairobi",
+          "registrationDate": "2023-08-20",
+          "contactInfo": {
+            "email": "highfliers@gmail.com",
+            "phone": "+254 759908112"
+          }
         },
         {
-            "id": "2",
-            "name": "kenya Highlands",
-            "type": "Secondary",
-            "county": "Mombasa",
-            "registrationDate": "2023-11-19",
-            "contactInfo": {
-                "email": "highlandsseckenya@gmail.com",
-                "phone": "+254 778890034"
-            },
-            "products": [
-                {
-                    "id":"1",
-                    "name": "Zeraki Analytics"
-                },
-                {
-                    "id":"2",
-                    "name":"Zeraki Finance"
-                },
-                {
-                    "id":"3",
-                    "name":"Zeraki Timetable"
-                }
-            ]
+          "id": "2",
+          "name": "kenya Highlands",
+          "type": "Secondary",
+          "county": "Mombasa",
+          "registrationDate": "2023-11-19",
+          "contactInfo": {
+            "email": "highlandsseckenya@gmail.com",
+            "phone": "+254 778890034"
+          }
         },
         {
-            "id": "3",
-            "name": "Maji Mazuri",
-            "type": "IGSCE",
-            "county": "Nakuru",
-            "registrationDate": "2024-01-15",
-            "contactInfo": {
-                "email": "majimazuri@gmail.com",
-                "phone": "+254 765555333"
-            },
-            "products": [
-                {
-                    "id":"1",
-                    "name": "Zeraki Analytics"
-                },
-                {
-                    "id":"2",
-                    "name":"Zeraki Finance"
-                },
-                {
-                    "id":"3",
-                    "name":"Zeraki Timetable"
-                }
-            ]
+          "id": "3",
+          "name": "Maji Mazuri",
+          "type": "IGSCE",
+          "county": "Nakuru",
+          "registrationDate": "2024-01-15",
+          "contactInfo": {
+            "email": "majimazuri@gmail.com",
+            "phone": "+254 765555333"
+          }
         },
         {
-            "id": "4",
-            "name": "Elimu Bora",
-            "type": "Primary",
-            "county": "Kakamega",
-            "registrationDate": "2023-09-15",
-            "contactInfo": {
-                "email": "elimu@gmail.com",
-                "phone": "+254 675444999"
-            },
-            "products": [
-                {
-                    "id":"1",
-                    "name": "Zeraki Analytics"
-                },
-                {
-                    "id":"2",
-                    "name":"Zeraki Finance"
-                },
-                {
-                    "id":"3",
-                    "name":"Zeraki Timetable"
-                }
-            ]
+          "id": "4",
+          "name": "Elimu Bora",
+          "type": "Primary",
+          "county": "Kakamega",
+          "registrationDate": "2023-09-15",
+          "contactInfo": {
+            "email": "elimu@gmail.com",
+            "phone": "+254 675444999"
+          }
         },
         {
-            "id": "5",
-            "name": "Nairobi High School",
-            "type": "Secondary",
-            "county": "Nairobi",
-            "registrationDate": "2023-11-15",
-            "contactInfo": {
-                "email": "nairobihigh@gmail.com",
-                "phone": "+254 754234456"
-            },
-            "products": [
-                {
-                    "id":"1",
-                    "name": "Zeraki Analytics"
-                },
-                {
-                    "id":"2",
-                    "name":"Zeraki Finance"
-                },
-                {
-                    "id":"3",
-                    "name":"Zeraki Timetable"
-                }
-            ]
+          "id": "5",
+          "name": "Nairobi High School",
+          "type": "Secondary",
+          "county": "Nairobi",
+          "registrationDate": "2023-11-15",
+          "contactInfo": {
+            "email": "nairobihigh@gmail.com",
+            "phone": "+254 754234456"
+          }
         },
         {
-            "id": "6",
-            "name": "St. James Biku",
-            "type": "IGSCE",
-            "county": "Kilifi",
-            "registrationDate": "2024-01-17",
-            "contactInfo": {
-                "email": "jamesbikust@gmail.com",
-                "phone": "+254 777900841"
-            },
-            "products": [
-                {
-                    "id":"1",
-                    "name": "Zeraki Analytics"
-                },
-                {
-                    "id":"2",
-                    "name":"Zeraki Finance"
-                },
-                {
-                    "id":"3",
-                    "name":"Zeraki Timetable"
-                }
-            ]
+          "id": "6",
+          "name": "St. James Biku",
+          "type": "IGSCE",
+          "county": "Kilifi",
+          "registrationDate": "2024-01-17",
+          "contactInfo": {
+            "email": "jamesbikust@gmail.com",
+            "phone": "+254 777900841"
+          }
         },
         {
-            "id": "7",
-            "name": "St. Patrics Litein",
-            "type": "IGSCE",
-            "county": "Kericho",
-            "registrationDate": "2023-08-15",
-            "contactInfo": {
-                "email": "patrics.sts.litein@gmail.com",
-                "phone": "+254 356786555"
-            },
-            "products": [
-                {
-                    "id":"1",
-                    "name": "Zeraki Analytics"
-                },
-                {
-                    "id":"2",
-                    "name":"Zeraki Finance"
-                },
-                {
-                    "id":"3",
-                    "name":"Zeraki Timetable"
-                }
-            ]
+          "id": "7",
+          "name": "St. Patrics Litein",
+          "type": "IGSCE",
+          "county": "Kericho",
+          "registrationDate": "2023-08-15",
+          "contactInfo": {
+            "email": "patrics.sts.litein@gmail.com",
+            "phone": "+254 356786555"
+          }
         }
-    ],
-    "invoices": [
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Zeraki Timetable",
+      "description": "timetable",
+      "signupGoal": 18,
+      "schools": [
         {
-            "id": "1",
-            "productId": "1",
-            "schoolId": "1",
-            "creationDate": "2023-12-23",
-            "dueDate": "2024-03-14",
-            "amount": 90000
+          "id": "1",
+          "name": "High Fliers",
+          "type": "Primary",
+          "county": "Nairobi",
+          "registrationDate": "2023-08-20",
+          "contactInfo": {
+            "email": "highfliers@gmail.com",
+            "phone": "+254 759908112"
+          }
         },
         {
-            "id": "2",
-            "productId": "2",
-            "schoolId": "1",
-            "creationDate": "2023-12-23",
-            "dueDate": "2024-03-14",
-            "amount": 90000
+          "id": "2",
+          "name": "kenya Highlands",
+          "type": "Secondary",
+          "county": "Mombasa",
+          "registrationDate": "2023-11-19",
+          "contactInfo": {
+            "email": "highlandsseckenya@gmail.com",
+            "phone": "+254 778890034"
+          }
         },
         {
-            "id": "3",
-            "productId": "3",
-            "schoolId": "1",
-            "creationDate": "2023-12-23",
-            "dueDate": "2024-03-14",
-            "amount": 90000
+          "id": "3",
+          "name": "Maji Mazuri",
+          "type": "IGSCE",
+          "county": "Nakuru",
+          "registrationDate": "2024-01-15",
+          "contactInfo": {
+            "email": "majimazuri@gmail.com",
+            "phone": "+254 765555333"
+          }
         },
         {
-            "id": "4",
-            "productId": "2",
-            "schoolId": "1",
-            "creationDate": "2023-10-23",
-            "dueDate": "2024-03-14",
-            "amount": 30000
+          "id": "4",
+          "name": "Elimu Bora",
+          "type": "Primary",
+          "county": "Kakamega",
+          "registrationDate": "2023-09-15",
+          "contactInfo": {
+            "email": "elimu@gmail.com",
+            "phone": "+254 675444999"
+          }
         },
         {
-            "id": "5",
-            "productId": "3",
-            "schoolId": "1",
-            "creationDate": "2023-11-23",
-            "dueDate": "2024-03-14",
-            "amount": 40000
+          "id": "5",
+          "name": "Nairobi High School",
+          "type": "Secondary",
+          "county": "Nairobi",
+          "registrationDate": "2023-11-15",
+          "contactInfo": {
+            "email": "nairobihigh@gmail.com",
+            "phone": "+254 754234456"
+          }
         },
         {
-            "id": "6",
-            "productId": "1",
-            "schoolId": "2",
-            "creationDate": "2023-12-23",
-            "dueDate": "2024-03-14",
-            "amount": 90000
+          "id": "6",
+          "name": "St. James Biku",
+          "type": "IGSCE",
+          "county": "Kilifi",
+          "registrationDate": "2024-01-17",
+          "contactInfo": {
+            "email": "jamesbikust@gmail.com",
+            "phone": "+254 777900841"
+          }
         },
         {
-            "id": "7",
-            "productId": "2",
-            "schoolId": "2",
-            "creationDate": "2023-12-23",
-            "dueDate": "2024-03-14",
-            "amount": 90000
-        },
-        {
-            "id": "8",
-            "productId": "3",
-            "schoolId": "2",
-            "creationDate": "2023-12-23",
-            "dueDate": "2024-03-14",
-            "amount": 90000
-        },
-        {
-            "id": "9",
-            "productId": "2",
-            "schoolId": "2",
-            "creationDate": "2023-10-23",
-            "dueDate": "2024-03-14",
-            "amount": 30000
-        },
-        {
-            "id": "10",
-            "productId": "3",
-            "schoolId": "2",
-            "creationDate": "2023-11-23",
-            "dueDate": "2024-03-14",
-            "amount": 40000
-        },
-        {
-            "id": "11",
-            "productId": "1",
-            "schoolId": "3",
-            "creationDate": "2023-12-23",
-            "dueDate": "2024-03-14",
-            "amount": 90000
-        },
-        {
-            "id": "12",
-            "productId": "2",
-            "schoolId": "3",
-            "creationDate": "2023-12-23",
-            "dueDate": "2024-03-14",
-            "amount": 90000
-        },
-        {
-            "id": "13",
-            "productId": "3",
-            "schoolId": "3",
-            "creationDate": "2023-12-23",
-            "dueDate": "2024-03-14",
-            "amount": 90000
-        },
-        {
-            "id": "14",
-            "productId": "2",
-            "schoolId": "3",
-            "creationDate": "2023-10-23",
-            "dueDate": "2024-03-14",
-            "amount": 30000
-        },
-        {
-            "id": "15",
-            "productId": "3",
-            "schoolId": "3",
-            "creationDate": "2023-11-23",
-            "dueDate": "2024-03-14",
-            "amount": 40000
-        },
-        {
-            "id": "16",
-            "productId": "1",
-            "schoolId": "4",
-            "creationDate": "2023-12-23",
-            "dueDate": "2024-03-14",
-            "amount": 90000
-        },
-        {
-            "id": "17",
-            "productId": "2",
-            "schoolId": "4",
-            "creationDate": "2023-12-23",
-            "dueDate": "2024-03-14",
-            "amount": 90000
-        },
-        {
-            "id": "18",
-            "productId": "3",
-            "schoolId": "4",
-            "creationDate": "2023-12-23",
-            "dueDate": "2024-03-14",
-            "amount": 90000
-        },
-        {
-            "id": "19",
-            "productId": "2",
-            "schoolId": "4",
-            "creationDate": "2023-10-23",
-            "dueDate": "2024-03-14",
-            "amount": 30000
-        },
-        {
-            "id": "20",
-            "productId": "3",
-            "schoolId": "4",
-            "creationDate": "2023-11-23",
-            "dueDate": "2024-03-14",
-            "amount": 40000
-        },
-        {
-            "id": "21",
-            "productId": "1",
-            "schoolId": "5",
-            "creationDate": "2023-12-23",
-            "dueDate": "2024-03-14",
-            "amount": 90000
-        },
-        {
-            "id": "22",
-            "productId": "2",
-            "schoolId": "5",
-            "creationDate": "2023-12-23",
-            "dueDate": "2024-03-14",
-            "amount": 90000
-        },
-        {
-            "id": "23",
-            "productId": "3",
-            "schoolId": "5",
-            "creationDate": "2023-12-23",
-            "dueDate": "2024-03-14",
-            "amount": 90000
-        },
-        {
-            "id": "24",
-            "productId": "2",
-            "schoolId": "5",
-            "creationDate": "2023-10-23",
-            "dueDate": "2024-03-14",
-            "amount": 30000
-        },
-        {
-            "id": "25",
-            "productId": "3",
-            "schoolId": "5",
-            "creationDate": "2023-11-23",
-            "dueDate": "2024-03-14",
-            "amount": 40000
-        },
-        {
-            "id": "26",
-            "productId": "1",
-            "schoolId": "6",
-            "creationDate": "2023-12-23",
-            "dueDate": "2024-03-14",
-            "amount": 90000
-        },
-        {
-            "id": "27",
-            "productId": "2",
-            "schoolId": "6",
-            "creationDate": "2023-12-23",
-            "dueDate": "2024-03-14",
-            "amount": 90000
-        },
-        {
-            "id": "28",
-            "productId": "3",
-            "schoolId": "6",
-            "creationDate": "2023-12-23",
-            "dueDate": "2024-03-14",
-            "amount": 90000
-        },
-        {
-            "id": "29",
-            "productId": "2",
-            "schoolId": "6",
-            "creationDate": "2023-10-23",
-            "dueDate": "2024-03-14",
-            "amount": 30000
-        },
-        {
-            "id": "30",
-            "productId": "3",
-            "schoolId": "6",
-            "creationDate": "2023-11-23",
-            "dueDate": "2024-03-14",
-            "amount": 40000
-        },
-        {
-            "id": "31",
-            "productId": "1",
-            "schoolId": "7",
-            "creationDate": "2023-12-23",
-            "dueDate": "2024-03-14",
-            "amount": 90000
-        },
-        {
-            "id": "32",
-            "productId": "2",
-            "schoolId": "7",
-            "creationDate": "2023-12-23",
-            "dueDate": "2024-03-14",
-            "amount": 90000
-        },
-        {
-            "id": "33",
-            "productId": "3",
-            "schoolId": "7",
-            "creationDate": "2023-12-23",
-            "dueDate": "2024-03-14",
-            "amount": 90000
-        },
-        {
-            "id": "34",
-            "productId": "2",
-            "schoolId": "7",
-            "creationDate": "2023-10-23",
-            "dueDate": "2024-03-14",
-            "amount": 30000
-        },
-        {
-            "id": "35",
-            "productId": "3",
-            "schoolId": "7",
-            "creationDate": "2023-11-23",
-            "dueDate": "2024-03-14",
-            "amount": 40000
+          "id": "7",
+          "name": "St. Patrics Litein",
+          "type": "IGSCE",
+          "county": "Kericho",
+          "registrationDate": "2023-08-15",
+          "contactInfo": {
+            "email": "patrics.sts.litein@gmail.com",
+            "phone": "+254 356786555"
+          }
         }
-    ], 
-    "collections": [
-        {
-            "id": "1",
-            "invoiceId": "1",
-            "productId": "1",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 9000
-        },
-        {
-            "id": "2",
-            "invoiceId": "2",
-            "productId": "2",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 32100
-        },
-        {
-            "id": "3",
-            "invoiceId": "3",
-            "productId": "3",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 4000
-        },
-        {
-            "id": "4",
-            "invoiceId": "4",
-            "productId": "2",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 32100
-        },
-        {
-            "id": "5",
-            "invoiceId": "5",
-            "productId": "3",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 4000
-        },
-        {
-            "id": "6",
-            "invoiceId": "6",
-            "productId": "1",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 9000
-        },
-        {
-            "id": "7",
-            "invoiceId": "7",
-            "productId": "2",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 32100
-        },
-        {
-            "id": "8",
-            "invoiceId": "8",
-            "productId": "3",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 4000
-        },
-        {
-            "id": "9",
-            "invoiceId": "9",
-            "productId": "2",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 32100
-        },
-        {
-            "id": "10",
-            "invoiceId": "10",
-            "productId": "3",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 4000
-        },
-        {
-            "id": "11",
-            "invoiceId": "11",
-            "productId": "1",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 9000
-        },
-        {
-            "id": "12",
-            "invoiceId": "12",
-            "productId": "2",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 32100
-        },
-        {
-            "id": "13",
-            "invoiceId": "13",
-            "productId": "3",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 4000
-        },
-        {
-            "id": "14",
-            "invoiceId": "14",
-            "productId": "2",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 32100
-        },
-        {
-            "id": "15",
-            "invoiceId": "15",
-            "productId": "3",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 4000
-        },
-        {
-            "id": "16",
-            "invoiceId": "16",
-            "productId": "1",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 9000
-        },
-        {
-            "id": "17",
-            "invoiceId": "17",
-            "productId": "2",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 32100
-        },
-        {
-            "id": "18",
-            "invoiceId": "18",
-            "productId": "3",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 4000
-        },
-        {
-            "id": "19",
-            "invoiceId": "19",
-            "productId": "2",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 32100
-        },
-        {
-            "id": "20",
-            "invoiceId": "20",
-            "productId": "3",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 4000
-        },
-        {
-            "id": "21",
-            "invoiceId": "21",
-            "productId": "1",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 9000
-        },
-        {
-            "id": "22",
-            "invoiceId": "22",
-            "productId": "2",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 32100
-        },
-        {
-            "id": "23",
-            "invoiceId": "23",
-            "productId": "3",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 4000
-        },
-        {
-            "id": "24",
-            "invoiceId": "24",
-            "productId": "2",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 32100
-        },
-        {
-            "id": "25",
-            "invoiceId": "25",
-            "productId": "3",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 4000
-        },
-        {
-            "id": "26",
-            "invoiceId": "26",
-            "productId": "1",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 9000
-        },
-        {
-            "id": "27",
-            "invoiceId": "27",
-            "productId": "2",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 32100
-        },
-        {
-            "id": "28",
-            "invoiceId": "28",
-            "productId": "3",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 4000
-        },
-        {
-            "id": "29",
-            "invoiceId": "29",
-            "productId": "2",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 32100
-        },
-        {
-            "id": "30",
-            "invoiceId": "30",
-            "productId": "3",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 4000
-        },
-        {
-            "id": "31",
-            "invoiceId": "31",
-            "productId": "1",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 9000
-        },
-        {
-            "id": "32",
-            "invoiceId": "32",
-            "productId": "2",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 32100
-        },
-        {
-            "id": "33",
-            "invoiceId": "33",
-            "productId": "3",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 4000
-        },
-        {
-            "id": "34",
-            "invoiceId": "34",
-            "productId": "2",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 32100
-        },
-        {
-            "id": "35",
-            "invoiceId": "35",
-            "productId": "3",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 4000
-        },
-        {
-            "id": "36",
-            "invoiceId": "1",
-            "productId": "1",
-            "collectionDate": "2023-11-18",
-            "status": "valid",
-            "amount": 15400
-        },
-        {
-            "id": "37",
-            "invoiceId": "2",
-            "productId": "2",
-            "collectionDate": "2023-11-18",
-            "status": "valid",
-            "amount": 87300
-        },
-        {
-            "id": "38",
-            "invoiceId": "3",
-            "productId": "3",
-            "collectionDate": "2023-11-18",
-            "status": "valid",
-            "amount": 9000
-        },
-        {
-            "id": "39",
-            "invoiceId": "4",
-            "productId": "2",
-            "collectionDate": "2023-11-18",
-            "status": "valid",
-            "amount": 87300
-        },
-        {
-            "id": "40",
-            "invoiceId": "5",
-            "collectionDate": "2023-11-18",
-            "status": "valid",
-            "amount": 9000
-        },
-        {
-            "id": "41",
-            "invoiceId": "6",
-            "productId": "1",
-            "collectionDate": "2023-11-18",
-            "status": "valid",
-            "amount": 15400
-        },
-        {
-            "id": "42",
-            "invoiceId": "7",
-            "productId": "2",
-            "collectionDate": "2023-11-18",
-            "status": "valid",
-            "amount": 87300
-        },
-        {
-            "id": "43",
-            "invoiceId": "8",
-            "productId": "3",
-            "collectionDate": "2023-11-18",
-            "status": "valid",
-            "amount": 9000
-        },
-        {
-            "id": "44",
-            "invoiceId": "9",
-            "productId": "2",
-            "collectionDate": "2023-11-18",
-            "status": "valid",
-            "amount": 87300
-        },
-        {
-            "id": "45",
-            "invoiceId": "10",
-            "productId": "3",
-            "collectionDate": "2023-11-18",
-            "status": "valid",
-            "amount": 9000
-        },
-        {
-            "id": "46",
-            "invoiceId": "11",
-            "productId": "1",
-            "collectionDate": "2023-11-18",
-            "status": "valid",
-            "amount": 15400
-        },
-        {
-            "id": "47",
-            "invoiceId": "12",
-            "productId": "2",
-            "collectionDate": "2023-11-18",
-            "status": "valid",
-            "amount": 87300
-        },
-        {
-            "id": "48",
-            "invoiceId": "13",
-            "productId": "3",
-            "collectionDate": "2023-11-18",
-            "status": "valid",
-            "amount": 9000
-        },
-        {
-            "id": "49",
-            "invoiceId": "14",
-            "productId": "2",
-            "collectionDate": "2023-11-18",
-            "status": "valid",
-            "amount": 87300
-        },
-        {
-            "id": "50",
-            "invoiceId": "15",
-            "productId": "3",
-            "collectionDate": "2023-11-18",
-            "status": "valid",
-            "amount": 9000
-        },
-        {
-            "id": "51",
-            "invoiceId": "16",
-            "productId": "1",
-            "collectionDate": "2023-11-18",
-            "status": "valid",
-            "amount": 15400
-        },
-        {
-            "id": "52",
-            "invoiceId": "17",
-            "productId": "2",
-            "collectionDate": "2023-11-18",
-            "status": "valid",
-            "amount": 87300
-        },
-        {
-            "id": "53",
-            "invoiceId": "18",
-            "productId": "3",
-            "collectionDate": "2023-11-18",
-            "status": "valid",
-            "amount": 9000
-        },
-        {
-            "id": "54",
-            "invoiceId": "19",
-            "productId": "2",
-            "collectionDate": "2023-11-18",
-            "status": "valid",
-            "amount": 87300
-        },
-        {
-            "id": "55",
-            "invoiceId": "20",
-            "productId": "3",
-            "collectionDate": "2023-11-18",
-            "status": "valid",
-            "amount": 9000
-        },
-        {
-            "id": "56",
-            "invoiceId": "21",
-            "productId": "1",
-            "collectionDate": "2023-11-18",
-            "status": "valid",
-            "amount": 15400
-        },
-        {
-            "id": "57",
-            "invoiceId": "22",
-            "productId": "2",
-            "collectionDate": "2023-11-18",
-            "status": "valid",
-            "amount": 87300
-        },
-        {
-            "id": "58",
-            "invoiceId": "23",
-            "productId": "3",
-            "collectionDate": "2023-11-18",
-            "status": "valid",
-            "amount": 9000
-        },
-        {
-            "id": "59",
-            "invoiceId": "24",
-            "productId": "2",
-            "collectionDate": "2023-11-18",
-            "status": "valid",
-            "amount": 87300
-        },
-        {
-            "id": "60",
-            "invoiceId": "25",
-            "productId": "3",
-            "collectionDate": "2023-11-18",
-            "status": "valid",
-            "amount": 9000
-        },
-        {
-            "id": "61",
-            "invoiceId": "26",
-            "productId": "1",
-            "collectionDate": "2023-11-18",
-            "status": "valid",
-            "amount": 15400
-        },
-        {
-            "id": "62",
-            "invoiceId": "27",
-            "productId": "2",
-            "collectionDate": "2023-11-18",
-            "status": "valid",
-            "amount": 87300
-        },
-        {
-            "id": "63",
-            "invoiceId": "28",
-            "productId": "3",
-            "collectionDate": "2023-11-18",
-            "status": "valid",
-            "amount": 9000
-        },
-        {
-            "id": "64",
-            "invoiceId": "29",
-            "productId": "2",
-            "collectionDate": "2023-11-18",
-            "status": "valid",
-            "amount": 87300
-        },
-        {
-            "id": "65",
-            "invoiceId": "30",
-            "productId": "3",
-            "collectionDate": "2023-11-18",
-            "status": "valid",
-            "amount": 9000
-        },
-        {
-            "id": "66",
-            "invoiceId": "31",
-            "productId": "1",
-            "collectionDate": "2023-11-18",
-            "status": "valid",
-            "amount": 15400
-        },
-        {
-            "id": "67",
-            "invoiceId": "32",
-            "productId": "2",
-            "collectionDate": "2023-11-18",
-            "status": "valid",
-            "amount": 87300
-        },
-        {
-            "id": "68",
-            "invoiceId": "33",
-            "productId": "3",
-            "collectionDate": "2023-11-18",
-            "status": "valid",
-            "amount": 9000
-        },
-        {
-            "id": "69",
-            "invoiceId": "34",
-            "productId": "2",
-            "collectionDate": "2023-11-18",
-            "status": "valid",
-            "amount": 87300
-        },
-        {
-            "id": "70",
-            "invoiceId": "35",
-            "productId": "3",
-            "collectionDate": "2023-11-18",
-            "status": "valid",
-            "amount": 9000
-        },
-        {
-            "id": "71",
-            "invoiceId": "1",
-            "productId": "1",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 10000
-        },
-        {
-            "id": "72",
-            "invoiceId": "2",
-            "productId": "2",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 10000
-        },
-        {
-            "id": "73",
-            "invoiceId": "3",
-            "productId": "3",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 10000
-        },
-        {
-            "id": "74",
-            "invoiceId": "4",
-            "productId": "2",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 10000
-        },
-        {
-            "id": "75",
-            "invoiceId": "5",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 10000
-        },
-        {
-            "id": "76",
-            "invoiceId": "6",
-            "productId": "1",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 10000
-        },
-        {
-            "id": "77",
-            "invoiceId": "7",
-            "productId": "2",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 10000
-        },
-        {
-            "id": "78",
-            "invoiceId": "8",
-            "productId": "3",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 10000
-        },
-        {
-            "id": "79",
-            "invoiceId": "9",
-            "productId": "2",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 10000
-        },
-        {
-            "id": "80",
-            "invoiceId": "10",
-            "productId": "3",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 10000
-        },
-        {
-            "id": "81",
-            "invoiceId": "11",
-            "productId": "1",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 10000
-        },
-        {
-            "id": "82",
-            "invoiceId": "12",
-            "productId": "2",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 10000
-        },
-        {
-            "id": "83",
-            "invoiceId": "13",
-            "productId": "3",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 10000
-        },
-        {
-            "id": "84",
-            "invoiceId": "14",
-            "productId": "2",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 10000
-        },
-        {
-            "id": "85",
-            "invoiceId": "15",
-            "productId": "3",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 10000
-        },
-        {
-            "id": "86",
-            "invoiceId": "16",
-            "productId": "1",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 10000
-        },
-        {
-            "id": "87",
-            "invoiceId": "17",
-            "productId": "2",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 10000
-        },
-        {
-            "id": "88",
-            "invoiceId": "18",
-            "productId": "3",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 10000
-        },
-        {
-            "id": "89",
-            "invoiceId": "19",
-            "productId": "2",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 10000
-        },
-        {
-            "id": "90",
-            "invoiceId": "20",
-            "productId": "3",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 10000
-        },
-        {
-            "id": "91",
-            "invoiceId": "21",
-            "productId": "1",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 10000
-        },
-        {
-            "id": "92",
-            "invoiceId": "22",
-            "productId": "2",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 10000
-        },
-        {
-            "id": "93",
-            "invoiceId": "23",
-            "productId": "3",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 10000
-        },
-        {
-            "id": "94",
-            "invoiceId": "24",
-            "productId": "2",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 10000
-        },
-        {
-            "id": "95",
-            "invoiceId": "25",
-            "productId": "3",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 10000
-        },
-        {
-            "id": "96",
-            "invoiceId": "26",
-            "productId": "1",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 10000
-        },
-        {
-            "id": "97",
-            "invoiceId": "27",
-            "productId": "2",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 10000
-        },
-        {
-            "id": "98",
-            "invoiceId": "28",
-            "productId": "3",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 10000
-        },
-        {
-            "id": "99",
-            "invoiceId": "29",
-            "productId": "2",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 10000
-        },
-        {
-            "id": "100",
-            "invoiceId": "30",
-            "productId": "3",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 10000
-        },
-        {
-            "id": "101",
-            "invoiceId": "31",
-            "productId": "1",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 10000
-        },
-        {
-            "id": "102",
-            "invoiceId": "32",
-            "productId": "2",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 10000
-        },
-        {
-            "id": "103",
-            "invoiceId": "33",
-            "productId": "3",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 10000
-        },
-        {
-            "id": "104",
-            "invoiceId": "34",
-            "productId": "2",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 10000
-        },
-        {
-            "id": "105",
-            "invoiceId": "35",
-            "productId": "3",
-            "collectionDate": "2023-10-18",
-            "status": "valid",
-            "amount": 10000
+      ]
+    }
+  ],
+  "schools": [
+    {
+      "id": "1",
+      "name": "High Fliers",
+      "type": "Primary",
+      "county": "Nairobi",
+      "registrationDate": "2023-08-20",
+      "contactInfo": {
+        "email": "highfliers@gmail.com",
+        "phone": "+254 759908112"
+      },
+      "products": [
+        {
+          "id": "1",
+          "name": "Zeraki Analytics"
+        },
+        {
+          "id": "2",
+          "name": "Zeraki Finance"
+        },
+        {
+          "id": "3",
+          "name": "Zeraki Timetable"
         }
-    ]
+      ]
+    },
+    {
+      "id": "2",
+      "name": "kenya Highlands",
+      "type": "Secondary",
+      "county": "Mombasa",
+      "registrationDate": "2023-11-19",
+      "contactInfo": {
+        "email": "highlandsseckenya@gmail.com",
+        "phone": "+254 778890034"
+      },
+      "products": [
+        {
+          "id": "1",
+          "name": "Zeraki Analytics"
+        },
+        {
+          "id": "2",
+          "name": "Zeraki Finance"
+        },
+        {
+          "id": "3",
+          "name": "Zeraki Timetable"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Maji Mazuri",
+      "type": "IGSCE",
+      "county": "Nakuru",
+      "registrationDate": "2024-01-15",
+      "contactInfo": {
+        "email": "majimazuri@gmail.com",
+        "phone": "+254 765555333"
+      },
+      "products": [
+        {
+          "id": "1",
+          "name": "Zeraki Analytics"
+        },
+        {
+          "id": "2",
+          "name": "Zeraki Finance"
+        },
+        {
+          "id": "3",
+          "name": "Zeraki Timetable"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Elimu Bora",
+      "type": "Primary",
+      "county": "Kakamega",
+      "registrationDate": "2023-09-15",
+      "contactInfo": {
+        "email": "elimu@gmail.com",
+        "phone": "+254 675444999"
+      },
+      "products": [
+        {
+          "id": "1",
+          "name": "Zeraki Analytics"
+        },
+        {
+          "id": "2",
+          "name": "Zeraki Finance"
+        },
+        {
+          "id": "3",
+          "name": "Zeraki Timetable"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Nairobi High School",
+      "type": "Secondary",
+      "county": "Nairobi",
+      "registrationDate": "2023-11-15",
+      "contactInfo": {
+        "email": "nairobihigh@gmail.com",
+        "phone": "+254 754234456"
+      },
+      "products": [
+        {
+          "id": "1",
+          "name": "Zeraki Analytics"
+        },
+        {
+          "id": "2",
+          "name": "Zeraki Finance"
+        },
+        {
+          "id": "3",
+          "name": "Zeraki Timetable"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "St. James Biku",
+      "type": "IGSCE",
+      "county": "Kilifi",
+      "registrationDate": "2024-01-17",
+      "contactInfo": {
+        "email": "jamesbikust@gmail.com",
+        "phone": "+254 777900841"
+      },
+      "products": [
+        {
+          "id": "1",
+          "name": "Zeraki Analytics"
+        },
+        {
+          "id": "2",
+          "name": "Zeraki Finance"
+        },
+        {
+          "id": "3",
+          "name": "Zeraki Timetable"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "St. Patrics Litein",
+      "type": "IGSCE",
+      "county": "Kericho",
+      "registrationDate": "2023-08-15",
+      "contactInfo": {
+        "email": "patrics.sts.litein@gmail.com",
+        "phone": "+254 356786555"
+      },
+      "products": [
+        {
+          "id": "1",
+          "name": "Zeraki Analytics"
+        },
+        {
+          "id": "2",
+          "name": "Zeraki Finance"
+        },
+        {
+          "id": "3",
+          "name": "Zeraki Timetable"
+        }
+      ]
+    }
+  ],
+  "invoices": [
+    {
+      "id": "1",
+      "productId": "1",
+      "schoolId": "1",
+      "creationDate": "2023-12-23",
+      "dueDate": "2024-03-14",
+      "amount": 90000
+    },
+    {
+      "id": "2",
+      "productId": "2",
+      "schoolId": "1",
+      "creationDate": "2023-12-23",
+      "dueDate": "2024-03-14",
+      "amount": 90000
+    },
+    {
+      "id": "3",
+      "productId": "3",
+      "schoolId": "1",
+      "creationDate": "2023-12-23",
+      "dueDate": "2024-03-14",
+      "amount": 90000
+    },
+    {
+      "id": "4",
+      "productId": "2",
+      "schoolId": "1",
+      "creationDate": "2023-10-23",
+      "dueDate": "2024-03-14",
+      "amount": 30000
+    },
+    {
+      "id": "5",
+      "productId": "3",
+      "schoolId": "1",
+      "creationDate": "2023-11-23",
+      "dueDate": "2024-03-14",
+      "amount": 40000
+    },
+    {
+      "id": "6",
+      "productId": "1",
+      "schoolId": "2",
+      "creationDate": "2023-12-23",
+      "dueDate": "2024-03-14",
+      "amount": 90000
+    },
+    {
+      "id": "7",
+      "productId": "2",
+      "schoolId": "2",
+      "creationDate": "2023-12-23",
+      "dueDate": "2024-03-14",
+      "amount": 90000
+    },
+    {
+      "id": "8",
+      "productId": "3",
+      "schoolId": "2",
+      "creationDate": "2023-12-23",
+      "dueDate": "2024-03-14",
+      "amount": 90000
+    },
+    {
+      "id": "9",
+      "productId": "2",
+      "schoolId": "2",
+      "creationDate": "2023-10-23",
+      "dueDate": "2024-03-14",
+      "amount": 30000
+    },
+    {
+      "id": "10",
+      "productId": "3",
+      "schoolId": "2",
+      "creationDate": "2023-11-23",
+      "dueDate": "2024-03-14",
+      "amount": 40000
+    },
+    {
+      "id": "11",
+      "productId": "1",
+      "schoolId": "3",
+      "creationDate": "2023-12-23",
+      "dueDate": "2024-03-14",
+      "amount": 90000
+    },
+    {
+      "id": "12",
+      "productId": "2",
+      "schoolId": "3",
+      "creationDate": "2023-12-23",
+      "dueDate": "2024-03-14",
+      "amount": 90000
+    },
+    {
+      "id": "13",
+      "productId": "3",
+      "schoolId": "3",
+      "creationDate": "2023-12-23",
+      "dueDate": "2024-03-14",
+      "amount": 90000
+    },
+    {
+      "id": "14",
+      "productId": "2",
+      "schoolId": "3",
+      "creationDate": "2023-10-23",
+      "dueDate": "2024-03-14",
+      "amount": 30000
+    },
+    {
+      "id": "15",
+      "productId": "3",
+      "schoolId": "3",
+      "creationDate": "2023-11-23",
+      "dueDate": "2024-03-14",
+      "amount": 40000
+    },
+    {
+      "id": "16",
+      "productId": "1",
+      "schoolId": "4",
+      "creationDate": "2023-12-23",
+      "dueDate": "2024-03-14",
+      "amount": 90000
+    },
+    {
+      "id": "17",
+      "productId": "2",
+      "schoolId": "4",
+      "creationDate": "2023-12-23",
+      "dueDate": "2024-03-14",
+      "amount": 90000
+    },
+    {
+      "id": "18",
+      "productId": "3",
+      "schoolId": "4",
+      "creationDate": "2023-12-23",
+      "dueDate": "2024-03-14",
+      "amount": 90000
+    },
+    {
+      "id": "19",
+      "productId": "2",
+      "schoolId": "4",
+      "creationDate": "2023-10-23",
+      "dueDate": "2024-03-14",
+      "amount": 30000
+    },
+    {
+      "id": "20",
+      "productId": "3",
+      "schoolId": "4",
+      "creationDate": "2023-11-23",
+      "dueDate": "2024-03-14",
+      "amount": 40000
+    },
+    {
+      "id": "21",
+      "productId": "1",
+      "schoolId": "5",
+      "creationDate": "2023-12-23",
+      "dueDate": "2024-03-14",
+      "amount": 90000
+    },
+    {
+      "id": "22",
+      "productId": "2",
+      "schoolId": "5",
+      "creationDate": "2023-12-23",
+      "dueDate": "2024-03-14",
+      "amount": 90000
+    },
+    {
+      "id": "23",
+      "productId": "3",
+      "schoolId": "5",
+      "creationDate": "2023-12-23",
+      "dueDate": "2024-03-14",
+      "amount": 90000
+    },
+    {
+      "id": "24",
+      "productId": "2",
+      "schoolId": "5",
+      "creationDate": "2023-10-23",
+      "dueDate": "2024-03-14",
+      "amount": 30000
+    },
+    {
+      "id": "25",
+      "productId": "3",
+      "schoolId": "5",
+      "creationDate": "2023-11-23",
+      "dueDate": "2024-03-14",
+      "amount": 40000
+    },
+    {
+      "id": "26",
+      "productId": "1",
+      "schoolId": "6",
+      "creationDate": "2023-12-23",
+      "dueDate": "2024-03-14",
+      "amount": 90000
+    },
+    {
+      "id": "27",
+      "productId": "2",
+      "schoolId": "6",
+      "creationDate": "2023-12-23",
+      "dueDate": "2024-03-14",
+      "amount": 90000
+    },
+    {
+      "id": "28",
+      "productId": "3",
+      "schoolId": "6",
+      "creationDate": "2023-12-23",
+      "dueDate": "2024-03-14",
+      "amount": 90000
+    },
+    {
+      "id": "29",
+      "productId": "2",
+      "schoolId": "6",
+      "creationDate": "2023-10-23",
+      "dueDate": "2024-03-14",
+      "amount": 30000
+    },
+    {
+      "id": "30",
+      "productId": "3",
+      "schoolId": "6",
+      "creationDate": "2023-11-23",
+      "dueDate": "2024-03-14",
+      "amount": 40000
+    },
+    {
+      "id": "31",
+      "productId": "1",
+      "schoolId": "7",
+      "creationDate": "2023-12-23",
+      "dueDate": "2024-03-14",
+      "amount": 90000
+    },
+    {
+      "id": "32",
+      "productId": "2",
+      "schoolId": "7",
+      "creationDate": "2023-12-23",
+      "dueDate": "2024-03-14",
+      "amount": 90000
+    },
+    {
+      "id": "33",
+      "productId": "3",
+      "schoolId": "7",
+      "creationDate": "2023-12-23",
+      "dueDate": "2024-03-14",
+      "amount": 90000
+    },
+    {
+      "id": "34",
+      "productId": "2",
+      "schoolId": "7",
+      "creationDate": "2023-10-23",
+      "dueDate": "2024-03-14",
+      "amount": 30000
+    },
+    {
+      "id": "35",
+      "productId": "3",
+      "schoolId": "7",
+      "creationDate": "2023-11-23",
+      "dueDate": "2024-03-14",
+      "amount": 40000
+    }
+  ],
+  "collections": [
+    {
+      "id": "1",
+      "invoiceId": "1",
+      "schoolId": "1",
+      "productId": "1",
+      "collectionDate": "2023-10-18",
+      "status": "invalid",
+      "amount": "8900"
+    },
+    {
+      "id": "2",
+      "invoiceId": "2",
+      "schoolId": "1",
+      "productId": "2",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 32100
+    },
+    {
+      "id": "3",
+      "invoiceId": "3",
+      "schoolId": "1",
+      "productId": "3",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 4000
+    },
+    {
+      "id": "4",
+      "invoiceId": "4",
+      "schoolId": "1",
+      "productId": "2",
+      "collectionDate": "2023-10-18",
+      "status": "not valid",
+      "amount": 32100
+    },
+    {
+      "id": "5",
+      "invoiceId": "5",
+      "schoolId": "1",
+      "productId": "3",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 4000
+    },
+    {
+      "id": "6",
+      "invoiceId": "6",
+      "schoolId": "2",
+      "productId": "1",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 9000
+    },
+    {
+      "id": "7",
+      "invoiceId": "7",
+      "schoolId": "2",
+      "productId": "2",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 32100
+    },
+    {
+      "id": "8",
+      "invoiceId": "8",
+      "schoolId": "2",
+      "productId": "3",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 4000
+    },
+    {
+      "id": "9",
+      "invoiceId": "9",
+      "schoolId": "2",
+      "productId": "2",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 32100
+    },
+    {
+      "id": "10",
+      "invoiceId": "10",
+      "schoolId": "2",
+      "productId": "3",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 4000
+    },
+    {
+      "id": "11",
+      "invoiceId": "11",
+      "schoolId": "3",
+      "productId": "1",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 9000
+    },
+    {
+      "id": "12",
+      "invoiceId": "12",
+      "schoolId": "3",
+      "productId": "2",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 32100
+    },
+    {
+      "id": "13",
+      "invoiceId": "13",
+      "schoolId": "3",
+      "productId": "3",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 4000
+    },
+    {
+      "id": "14",
+      "invoiceId": "14",
+      "schoolId": "3",
+      "productId": "2",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 32100
+    },
+    {
+      "id": "15",
+      "invoiceId": "15",
+      "schoolId": "3",
+      "productId": "3",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 4000
+    },
+    {
+      "id": "16",
+      "invoiceId": "16",
+      "schoolId": "4",
+      "productId": "1",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 9000
+    },
+    {
+      "id": "17",
+      "invoiceId": "17",
+      "schoolId": "4",
+      "productId": "2",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 32100
+    },
+    {
+      "id": "18",
+      "invoiceId": "18",
+      "schoolId": "4",
+      "productId": "3",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 4000
+    },
+    {
+      "id": "19",
+      "invoiceId": "19",
+      "schoolId": "4",
+      "productId": "2",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 32100
+    },
+    {
+      "id": "20",
+      "invoiceId": "20",
+      "schoolId": "4",
+      "productId": "3",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 4000
+    },
+    {
+      "id": "21",
+      "invoiceId": "21",
+      "schoolId": "5",
+      "productId": "1",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 9000
+    },
+    {
+      "id": "22",
+      "invoiceId": "22",
+      "schoolId": "5",
+      "productId": "2",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 32100
+    },
+    {
+      "id": "23",
+      "invoiceId": "23",
+      "schoolId": "5",
+      "productId": "3",
+      "collectionDate": "2023-10-18",
+      "status": "bounced",
+      "amount": 4000
+    },
+    {
+      "id": "24",
+      "invoiceId": "24",
+      "schoolId": "5",
+      "productId": "2",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 32100
+    },
+    {
+      "id": "25",
+      "invoiceId": "25",
+      "schoolId": "5",
+      "productId": "3",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 4000
+    },
+    {
+      "id": "26",
+      "invoiceId": "26",
+      "schoolId": "6",
+      "productId": "1",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 9000
+    },
+    {
+      "id": "27",
+      "invoiceId": "27",
+      "schoolId": "6",
+      "productId": "2",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 32100
+    },
+    {
+      "id": "28",
+      "invoiceId": "28",
+      "schoolId": "6",
+      "productId": "3",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 4000
+    },
+    {
+      "id": "29",
+      "invoiceId": "29",
+      "schoolId": "6",
+      "productId": "2",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 32100
+    },
+    {
+      "id": "30",
+      "invoiceId": "30",
+      "schoolId": "6",
+      "productId": "3",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 4000
+    },
+    {
+      "id": "31",
+      "invoiceId": "31",
+      "schoolId": "7",
+      "productId": "1",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 9000
+    },
+    {
+      "id": "32",
+      "invoiceId": "32",
+      "schoolId": "7",
+      "productId": "2",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 32100
+    },
+    {
+      "id": "33",
+      "invoiceId": "33",
+      "schoolId": "7",
+      "productId": "3",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 4000
+    },
+    {
+      "id": "34",
+      "invoiceId": "34",
+      "schoolId": "7",
+      "productId": "2",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 32100
+    },
+    {
+      "id": "35",
+      "invoiceId": "35",
+      "schoolId": "7",
+      "productId": "3",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 4000
+    },
+    {
+      "id": "36",
+      "invoiceId": "1",
+      "schoolId": "1",
+      "productId": "1",
+      "collectionDate": "2023-11-18",
+      "status": "valid",
+      "amount": 15400
+    },
+    {
+      "id": "37",
+      "invoiceId": "2",
+      "schoolId": "1",
+      "productId": "2",
+      "collectionDate": "2023-11-18",
+      "status": "valid",
+      "amount": 87300
+    },
+    {
+      "id": "38",
+      "invoiceId": "3",
+      "schoolId": "1",
+      "productId": "3",
+      "collectionDate": "2023-11-18",
+      "status": "valid",
+      "amount": 9000
+    },
+    {
+      "id": "39",
+      "invoiceId": "4",
+      "schoolId": "1",
+      "productId": "2",
+      "collectionDate": "2023-11-18",
+      "status": "invalid",
+      "amount": 87300
+    },
+    {
+      "id": "40",
+      "invoiceId": "5",
+      "schoolId": "1",
+      "collectionDate": "2023-11-18",
+      "status": "valid",
+      "amount": 9000
+    },
+    {
+      "id": "41",
+      "invoiceId": "6",
+      "schoolId": "2",
+      "productId": "1",
+      "collectionDate": "2023-11-18",
+      "status": "valid",
+      "amount": 15400
+    },
+    {
+      "id": "42",
+      "invoiceId": "7",
+      "schoolId": "2",
+      "productId": "2",
+      "collectionDate": "2023-11-18",
+      "status": "valid",
+      "amount": 87300
+    },
+    {
+      "id": "43",
+      "invoiceId": "8",
+      "schoolId": "2",
+      "productId": "3",
+      "collectionDate": "2023-11-18",
+      "status": "invalid",
+      "amount": 9000
+    },
+    {
+      "id": "44",
+      "invoiceId": "9",
+      "schoolId": "2",
+      "productId": "2",
+      "collectionDate": "2023-11-18",
+      "status": "valid",
+      "amount": 87300
+    },
+    {
+      "id": "45",
+      "invoiceId": "10",
+      "schoolId": "2",
+      "productId": "3",
+      "collectionDate": "2023-11-18",
+      "status": "valid",
+      "amount": 9000
+    },
+    {
+      "id": "46",
+      "invoiceId": "11",
+      "schoolId": "3",
+      "productId": "1",
+      "collectionDate": "2023-11-18",
+      "status": "valid",
+      "amount": 15400
+    },
+    {
+      "id": "47",
+      "invoiceId": "12",
+      "schoolId": "3",
+      "productId": "2",
+      "collectionDate": "2023-11-18",
+      "status": "valid",
+      "amount": 87300
+    },
+    {
+      "id": "48",
+      "invoiceId": "13",
+      "schoolId": "3",
+      "productId": "3",
+      "collectionDate": "2023-11-18",
+      "status": "valid",
+      "amount": 9000
+    },
+    {
+      "id": "49",
+      "invoiceId": "14",
+      "schoolId": "3",
+      "productId": "2",
+      "collectionDate": "2023-11-18",
+      "status": "invalid",
+      "amount": 87300
+    },
+    {
+      "id": "50",
+      "invoiceId": "15",
+      "schoolId": "3",
+      "productId": "3",
+      "collectionDate": "2023-11-18",
+      "status": "valid",
+      "amount": 9000
+    },
+    {
+      "id": "51",
+      "invoiceId": "16",
+      "schoolId": "4",
+      "productId": "1",
+      "collectionDate": "2023-11-18",
+      "status": "valid",
+      "amount": 15400
+    },
+    {
+      "id": "52",
+      "invoiceId": "17",
+      "schoolId": "4",
+      "productId": "2",
+      "collectionDate": "2023-11-18",
+      "status": "invalid",
+      "amount": 87300
+    },
+    {
+      "id": "53",
+      "invoiceId": "18",
+      "schoolId": "4",
+      "productId": "3",
+      "collectionDate": "2023-11-18",
+      "status": "pending",
+      "amount": 9000
+    },
+    {
+      "id": "54",
+      "invoiceId": "19",
+      "schoolId": "4",
+      "productId": "2",
+      "collectionDate": "2023-11-18",
+      "status": "valid",
+      "amount": 87300
+    },
+    {
+      "id": "55",
+      "invoiceId": "20",
+      "schoolId": "4",
+      "productId": "3",
+      "collectionDate": "2023-11-18",
+      "status": "valid",
+      "amount": 9000
+    },
+    {
+      "id": "56",
+      "invoiceId": "21",
+      "schoolId": "5",
+      "productId": "1",
+      "collectionDate": "2023-11-18",
+      "status": "valid",
+      "amount": 15400
+    },
+    {
+      "id": "57",
+      "invoiceId": "22",
+      "schoolId": "5",
+      "productId": "2",
+      "collectionDate": "2023-11-18",
+      "status": "valid",
+      "amount": 87300
+    },
+    {
+      "id": "58",
+      "invoiceId": "23",
+      "schoolId": "5",
+      "productId": "3",
+      "collectionDate": "2023-11-18",
+      "status": "valid",
+      "amount": 9000
+    },
+    {
+      "id": "59",
+      "invoiceId": "24",
+      "schoolId": "5",
+      "productId": "2",
+      "collectionDate": "2023-11-18",
+      "status": "valid",
+      "amount": 87300
+    },
+    {
+      "id": "60",
+      "invoiceId": "25",
+      "schoolId": "5",
+      "productId": "3",
+      "collectionDate": "2023-11-18",
+      "status": "pending",
+      "amount": 9000
+    },
+    {
+      "id": "61",
+      "invoiceId": "26",
+      "schoolId": "5",
+      "productId": "1",
+      "collectionDate": "2023-11-18",
+      "status": "valid",
+      "amount": 15400
+    },
+    {
+      "id": "62",
+      "invoiceId": "27",
+      "schoolId": "6",
+      "productId": "2",
+      "collectionDate": "2023-11-18",
+      "status": "valid",
+      "amount": 87300
+    },
+    {
+      "id": "63",
+      "invoiceId": "28",
+      "schoolId": "6",
+      "productId": "3",
+      "collectionDate": "2023-11-18",
+      "status": "valid",
+      "amount": 9000
+    },
+    {
+      "id": "64",
+      "invoiceId": "29",
+      "schoolId": "6",
+      "productId": "2",
+      "collectionDate": "2023-11-18",
+      "status": "valid",
+      "amount": 87300
+    },
+    {
+      "id": "65",
+      "invoiceId": "30",
+      "schoolId": "6",
+      "productId": "3",
+      "collectionDate": "2023-11-18",
+      "status": "valid",
+      "amount": 9000
+    },
+    {
+      "id": "66",
+      "invoiceId": "31",
+      "schoolId": "7",
+      "productId": "1",
+      "collectionDate": "2023-11-18",
+      "status": "valid",
+      "amount": 15400
+    },
+    {
+      "id": "67",
+      "invoiceId": "32",
+      "schoolId": "7",
+      "productId": "2",
+      "collectionDate": "2023-11-18",
+      "status": "valid",
+      "amount": 87300
+    },
+    {
+      "id": "68",
+      "invoiceId": "33",
+      "schoolId": "7",
+      "productId": "3",
+      "collectionDate": "2023-11-18",
+      "status": "valid",
+      "amount": 9000
+    },
+    {
+      "id": "69",
+      "invoiceId": "34",
+      "schoolId": "7",
+      "productId": "2",
+      "collectionDate": "2023-11-18",
+      "status": "pending",
+      "amount": 87300
+    },
+    {
+      "id": "70",
+      "invoiceId": "35",
+      "schoolId": "7",
+      "productId": "3",
+      "collectionDate": "2023-11-18",
+      "status": "valid",
+      "amount": 9000
+    },
+    {
+      "id": "71",
+      "invoiceId": "1",
+      "schoolId": "1",
+      "productId": "1",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 10000
+    },
+    {
+      "id": "72",
+      "invoiceId": "2",
+      "schoolId": "1",
+      "productId": "2",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 10000
+    },
+    {
+      "id": "73",
+      "invoiceId": "3",
+      "schoolId": "1",
+      "productId": "3",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 10000
+    },
+    {
+      "id": "74",
+      "invoiceId": "4",
+      "schoolId": "1",
+      "productId": "2",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 10000
+    },
+    {
+      "id": "75",
+      "invoiceId": "5",
+      "schoolId": "1",
+      "collectionDate": "2023-10-18",
+      "status": "pending",
+      "amount": 10000
+    },
+    {
+      "id": "76",
+      "invoiceId": "6",
+      "schoolId": "2",
+      "productId": "1",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 10000
+    },
+    {
+      "id": "77",
+      "invoiceId": "7",
+      "schoolId": "2",
+      "productId": "2",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 10000
+    },
+    {
+      "id": "78",
+      "invoiceId": "8",
+      "schoolId": "2",
+      "productId": "3",
+      "collectionDate": "2023-10-18",
+      "status": "invalid",
+      "amount": 10000
+    },
+    {
+      "id": "79",
+      "invoiceId": "9",
+      "schoolId": "2",
+      "productId": "2",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 10000
+    },
+    {
+      "id": "80",
+      "invoiceId": "10",
+      "schoolId": "2",
+      "productId": "3",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 10000
+    },
+    {
+      "id": "81",
+      "invoiceId": "11",
+      "schoolId": "3",
+      "productId": "1",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 10000
+    },
+    {
+      "id": "82",
+      "invoiceId": "12",
+      "schoolId": "3",
+      "productId": "2",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 10000
+    },
+    {
+      "id": "83",
+      "invoiceId": "13",
+      "schoolId": "3",
+      "productId": "3",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 10000
+    },
+    {
+      "id": "84",
+      "invoiceId": "14",
+      "schoolId": "3",
+      "productId": "2",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 10000
+    },
+    {
+      "id": "85",
+      "invoiceId": "15",
+      "schoolId": "3",
+      "productId": "3",
+      "collectionDate": "2023-10-18",
+      "status": "pending",
+      "amount": 10000
+    },
+    {
+      "id": "86",
+      "invoiceId": "16",
+      "schoolId": "4",
+      "productId": "1",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 10000
+    },
+    {
+      "id": "87",
+      "invoiceId": "17",
+      "schoolId": "4",
+      "productId": "2",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 10000
+    },
+    {
+      "id": "88",
+      "invoiceId": "18",
+      "schoolId": "4",
+      "productId": "3",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 10000
+    },
+    {
+      "id": "89",
+      "invoiceId": "19",
+      "schoolId": "4",
+      "productId": "2",
+      "collectionDate": "2023-10-18",
+      "status": "pending",
+      "amount": 10000
+    },
+    {
+      "id": "90",
+      "invoiceId": "20",
+      "schoolId": "4",
+      "productId": "3",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 10000
+    },
+    {
+      "id": "91",
+      "invoiceId": "21",
+      "schoolId": "5",
+      "productId": "1",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 10000
+    },
+    {
+      "id": "92",
+      "invoiceId": "22",
+      "schoolId": "5",
+      "productId": "2",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 10000
+    },
+    {
+      "id": "93",
+      "invoiceId": "23",
+      "schoolId": "5",
+      "productId": "3",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 10000
+    },
+    {
+      "id": "94",
+      "invoiceId": "24",
+      "schoolId": "5",
+      "productId": "2",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 10000
+    },
+    {
+      "id": "95",
+      "invoiceId": "25",
+      "schoolId": "5",
+      "productId": "3",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 10000
+    },
+    {
+      "id": "96",
+      "invoiceId": "26",
+      "schoolId": "5",
+      "productId": "1",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 10000
+    },
+    {
+      "id": "97",
+      "invoiceId": "27",
+      "schoolId": "6",
+      "productId": "2",
+      "collectionDate": "2023-10-18",
+      "status": "pending",
+      "amount": 10000
+    },
+    {
+      "id": "98",
+      "invoiceId": "28",
+      "schoolId": "6",
+      "productId": "3",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 10000
+    },
+    {
+      "id": "99",
+      "invoiceId": "29",
+      "schoolId": "6",
+      "productId": "2",
+      "collectionDate": "2023-10-18",
+      "status": "pending",
+      "amount": 10000
+    },
+    {
+      "id": "100",
+      "invoiceId": "30",
+      "schoolId": "6",
+      "productId": "3",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 10000
+    },
+    {
+      "id": "101",
+      "invoiceId": "31",
+      "schoolId": "7",
+      "productId": "1",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 10000
+    },
+    {
+      "id": "102",
+      "invoiceId": "32",
+      "schoolId": "7",
+      "productId": "2",
+      "collectionDate": "2023-10-18",
+      "status": "invalid",
+      "amount": 10000
+    },
+    {
+      "id": "103",
+      "invoiceId": "33",
+      "schoolId": "7",
+      "productId": "3",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 10000
+    },
+    {
+      "id": "104",
+      "invoiceId": "34",
+      "schoolId": "7",
+      "productId": "2",
+      "collectionDate": "2023-10-18",
+      "status": "pending",
+      "amount": 10000
+    },
+    {
+      "id": "105",
+      "invoiceId": "35",
+      "schoolId": "7",
+      "productId": "3",
+      "collectionDate": "2023-10-18",
+      "status": "valid",
+      "amount": 10000
+    }
+  ]
 }

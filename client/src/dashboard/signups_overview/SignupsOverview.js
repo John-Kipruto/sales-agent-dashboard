@@ -1,78 +1,11 @@
+import { useContext } from 'react'
 import BarChart from './BarChart'
 import './signups_overview.css'
+import AppContext from '../../context/AppContext'
 
 const SignupsOverview = () => {
 
-    const products = [
-        {
-            goalTarget: 20,
-            schools: [
-                {
-                    name: "St. Jules",
-                    type: "Primary"
-                },
-                {
-                    name: "Robitson High",
-                    type:"IGSCE"
-                },
-                {
-                    name: "Econs",
-                    type: "Secondary"
-                }
-                
-            ],
-            description: "analytics",
-            name: "Zeraki Analytics"
-        }, 
-        {
-            goalTarget: 20,
-            schools: [
-                {
-                    name: "St. Jules",
-                    type: "Primary"
-                },
-                {
-                    name: "Robitson High",
-                    type:"IGSCE"
-                },
-                {
-                    name: "Econs",
-                    type: "Secondary"
-                }
-                
-            ],
-            description: "finance",
-            name: "Zeraki Finance"
-        }, 
-        {
-            goalTarget: 10,
-            schools: [
-                {
-                    name: "St. Jules",
-                    type: "Primary"
-                },
-                {
-                    name: "Robitson High",
-                    type:"Secondary"
-                },
-                {
-                    name: "Econs",
-                    type: "IGSCE"
-                },
-                {
-                    name: "Econs",
-                    type: "IGSCE"
-                },
-                {
-                    name: "Econs",
-                    type: "IGSCE"
-                }
-                
-            ],
-            description: "timetable",
-            name: "Zeraki Timetable"
-        }, 
-    ]
+    const {products} = useContext(AppContext)
 
   return (
     <div className="signups-overview">

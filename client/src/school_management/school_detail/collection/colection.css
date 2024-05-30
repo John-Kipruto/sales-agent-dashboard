@@ -1,8 +1,42 @@
 .collection{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     padding: 20px 5px;
     border-bottom: solid;
     border-width: 1px;
     border-color: rgb(230, 230, 230);
+}
+
+.collection button{
+    border: none;
+    background-color: blue;
+    padding: 5px 15px;
+    color: white;
+    border-radius: 5px;
+}
+
+.school-detail .collection .modal{
+    height: 500px;
+    padding: 30px 0;
+}
+
+.collection button:hover{
+    cursor: pointer;
+}
+
+.collection form div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.collection form div > *{
+    padding: 5px 0;
+    margin: 5px 0;
+}
+
+.collection form div > input{
+    border-radius: 10px;
+    border: none;
+    padding: 5px 10px;
 }
