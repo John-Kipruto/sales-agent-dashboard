@@ -1,15 +1,12 @@
 {
-  "name": "mock_server",
+  "name": "json-server-vercel",
   "version": "1.0.0",
-  "description": "A mock server for the agent dashboard",
+  "description": "Deploy JSON Server to Vercel",
   "main": "api/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node api/server.js"
   },
-  "author": "John Kipruto",
-  "license": "MIT",
   "dependencies": {
-    "json-server": "^1.0.0-beta.0"
+    "json-server": "^0.17.4"
   }
 }
