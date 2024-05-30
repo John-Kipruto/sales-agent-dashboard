@@ -1,15 +1,15 @@
-import { useContext} from 'react'
+import { useContext, useState} from 'react'
 import Collection from './collection/Collection'
 import Invoice from './invoice/Invoice'
 import './school_detail.css'
 import AppContext from '../../context/AppContext'
 
+
 const SchoolDetail = () => {
     const {selectedSchool, invoices, collections} =  useContext(AppContext)
-    const schoolInvoices = invoices.filter(invoice => invoice.schoolId === selectedSchool.id)
+    const [schoolInvoices, setSchoolInvoices] = useState(invoices.filter(invoice => invoice.schoolId === selectedSchool.id))
     const schoolCollections = collections.filter(collection => collection.schoolId === selectedSchool.id)
-    
-    console.log(collections)
+
   return (
     <div className='school-detail'>
         <div className='details'>
@@ -41,7 +41,7 @@ const SchoolDetail = () => {
                 </div>
                 <div className='invoices'>
                     {
-                        schoolInvoices.map(invoice => <Invoice invoice={invoice} />)
+                        schoolInvoices.map(invoice => <Invoice invoicePassed={invoice} schoolInvoices={schoolInvoices} setSchoolInvoices={setSchoolInvoices}/>)
                     }
                 </div>
                 
@@ -60,7 +60,7 @@ const SchoolDetail = () => {
 
                     <div className='collections'>
                         {
-                            schoolCollections.map(collection => <Collection collection={collection} />)
+                            schoolCollections.map(collection => <Collection collectionPassed={collection} />)
                         }
                     </div>
                 </div>

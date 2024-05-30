@@ -2,12 +2,13 @@ import AppContext from '../../../context/AppContext'
 import './colection.css'
 import { useContext, useState } from 'react'
 
-const Collection = ({collection}) => {
+const Collection = ({collectionPassed}) => {
     let color = "orange"
-    if(collection.status === "valid"){
+    if(collectionPassed.status === "valid"){
         color = "green"
     }
     const {apiUrl, setCollections} = useContext(AppContext)
+    const [collection, setCollection] = useState(collectionPassed)
     const [modalVisibility, setModalVisibility] = useState("hidden");
     const [collectionDetails, setCollectionDetails] = useState({
 
@@ -36,22 +37,24 @@ const Collection = ({collection}) => {
     const handleSubmit = async (event) => {
         hideModal()
         event.preventDefault()
-        const response = await fetch(`${apiUrl}/collections/${collection.id}`, {
-          method: "PUT",
-          headers: {
-            "Content-Type": "application/json"
-          },
-          body: JSON.stringify(collectionDetails)
-        })
-        if(response.ok){
-          const collectionResponse = await fetch(`${apiUrl}/collections`)
-          if(collectionResponse.ok){
-            const collectionData = await collectionResponse.json()
-            setCollections(collectionData)
-          }
-          alert("Collection Updated Successfully")
-        }
+        // const response = await fetch(`${apiUrl}/collections/${collection.id}`, {
+        //   method: "PUT",
+        //   headers: {
+        //     "Content-Type": "application/json"
+        //   },
+        //   body: JSON.stringify(collectionDetails)
+        // })
+        // if(response.ok){
+        //   const collectionResponse = await fetch(`${apiUrl}/collections`)
+        //   if(collectionResponse.ok){
+        //     const collectionData = await collectionResponse.json()
+        //     setCollections(collectionData)
+        //   }
+        //   alert("Collection Updated Successfully")
+        // }
         
+        // Mimick real time update
+        setCollection(collectionDetails)
     }
 
   return (

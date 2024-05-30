@@ -2,8 +2,9 @@ import AppContext from '../../../context/AppContext';
 import './invoice.css'
 import {  useContext, useState } from 'react';
 
-const Invoice = ({invoice}) => {
-    const {invoices, setInvoices, apiUrl} = useContext(AppContext)
+const Invoice = ({invoicePassed, setSchoolInvoices, schoolInvoices}) => {
+    const {invoices, setInvoices} = useContext(AppContext)
+    const[invoice, setInvoice] = useState(invoicePassed)
     const [updateModalVisibility, setUpdateModalVisibility] = useState("hidden");
     const [deleteModalVisibility, setDeleteModalVisibility] = useState("hidden");
     const [updateCollectionDetails, setUpdateCollectionDetails] = useState({
@@ -33,27 +34,29 @@ const Invoice = ({invoice}) => {
         event.preventDefault()
         hideUpdateModal()
 
-        const response = await fetch(`${apiUrl}/invoices/${invoice.id}`, {
-            method: "PUT",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify(updateCollectionDetails)
-        })
-
-        if(response.ok){
-            const invoicesResponse = await fetch(`${apiUrl}/invoices`)
-            if(invoicesResponse.ok){
-                const invoicesResult = await invoicesResponse.json()
-                console.log("Invoice results", invoicesResult)
-                setInvoices(invoicesResult)
-            }
-            alert("Invoice Updated Successfully")
-
-        } else {
-            alert("Erorr Updating")
-        }
+        setInvoice(updateCollectionDetails)
         
+
+          // const response = await fetch(`${apiUrl}/invoices/${invoice.id}`, {
+        //     method: "PUT",
+        //     headers: {
+        //         "Content-Type": "application/json"
+        //     },
+        //     body: JSON.stringify(updateCollectionDetails)
+        // })
+
+        // if(response.ok){
+        //     const invoicesResponse = await fetch(`${apiUrl}/invoices`)
+        //     if(invoicesResponse.ok){
+        //         const invoicesResult = await invoicesResponse.json()
+        //         console.log("Invoice results", invoicesResult)
+        //         setInvoices(invoicesResult)
+        //     }
+        //     alert("Invoice Updated Successfully")
+
+        // } else {
+        //     alert("Erorr Updating")
+        // }
     }
 
     // Handle delete click
@@ -73,24 +76,27 @@ const Invoice = ({invoice}) => {
     const handleYesDelete = async () => {
         setInvoices([...invoices])
         hideDeleteModal()
-        const response = await fetch(`${apiUrl}/invoices/${invoice.id}`, {
-            method: "DELETE",
+        setSchoolInvoices(schoolInvoices.filter(invoiceInList => invoiceInList.id !== invoicePassed.id))
+
+
+        // const response = await fetch(`${apiUrl}/invoices/${invoice.id}`, {
+        //     method: "DELETE",
             
-        })
-        if(response.ok){
-            const invoicesResponse = await fetch(`${apiUrl}/invoices`)
-            if(invoicesResponse.ok){
-                const invoicesResult = await invoicesResponse.json()
-                setInvoices(invoicesResult)
-            }
-        }
+        // })
+        // if(response.ok){
+        //     const invoicesResponse = await fetch(`${apiUrl}/invoices`)
+        //     if(invoicesResponse.ok){
+        //         const invoicesResult = await invoicesResponse.json()
+        //         setInvoices(invoicesResult)
+        //     }
+        // }
         
     }
 
    
   return (
     <div className='invoice'>
-        <div>{invoice.id}</div>
+        <div>{invoicePassed.id}</div>
         <div>{invoice.creationDate}</div>
         <div>{invoice.dueDate}</div>
         <div>Ksh. {invoice.amount}</div>
