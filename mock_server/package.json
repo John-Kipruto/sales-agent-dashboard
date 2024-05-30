@@ -1,12 +1,14 @@
 {
-  "name": "json-server-vercel",
-  "version": "1.0.0",
-  "description": "Deploy JSON Server to Vercel",
-  "main": "api/server.js",
-  "scripts": {
-    "start": "node api/server.js"
+  "functions": {
+    "api/server.js": {
+      "memory": 1024,
+      "includeFiles": "db.json"
+    }
   },
-  "dependencies": {
-    "json-server": "^0.17.4"
-  }
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "api/server.js"
+    }
+  ]
 }
