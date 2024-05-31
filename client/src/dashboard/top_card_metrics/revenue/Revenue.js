@@ -1,9 +1,9 @@
+import { useContext } from 'react'
 import './revenue.css'
+import AppContext from '../../../context/AppContext'
 
 const Revenue = () => {
-  const zerakiAnalytics = 500
-  const zerakiFinance = 300
-  const zerakiTimetable= 356
+  const {products, collections} = useContext(AppContext)
 
   return (
     <div className='metric'>
@@ -15,10 +15,17 @@ const Revenue = () => {
         <div className='contents'>
           
           <div>
-            <ul>
-              <li><i>Zeraki Analytics {`--->`} Ksh.{zerakiAnalytics}</i></li>
-              <li><i>Zeraki Finance {`--->`} Ksh.{zerakiFinance}</i></li>
-              <li><i>Zeraki Timetable {`--->`} Ksh.{zerakiTimetable}</i></li>
+            <ul className='revenues-content'>
+              {/* Dynamically calculate the revenue for each product and assign className */}
+              {
+                products.map(product => (
+                  <li className={product.name.split(" ")[1]}><i>{product.name} {`--->`} Ksh.{
+                    collections.filter(collection => collection.productId === product.id).reduce(
+                      (total, collection) => total + Number(collection.amount), 0
+                    )
+                  }</i></li>
+                ))
+              }
             </ul>
           </div>
         </div>
