@@ -11,16 +11,28 @@ const SchoolBlock = ({school}) => {
     let letter = school.name.charAt(0).toLowerCase()
     let color = 'orange'
 
-    if(letter === 'a' || letter === 'd' || letter === 'g' || letter === 'j'|| letter === 'm'|| letter === 'p' ){
+    if(letter === 'a' || letter === 'g' || letter === 'm' || letter === 's' ){
         color = "green"
     }
 
-    if(letter === 'b' || letter === 'e'|| letter === 'h'|| letter === 'k'|| letter === 'n'|| letter === 'q'){
+    if(letter === 'b' || letter === 'h'|| letter === 'n'|| letter === 't'|| letter === 'y'){
+        color = "red"
+    }
+
+    if(letter === 'c' || letter === 'i'|| letter === 'o'|| letter === 'u'|| letter === 'z'){
+        color = "blue"
+    }
+
+    if(letter === 'd' || letter === 'j'|| letter === 'p'|| letter === 'v'){
+        color = "purple"
+    }
+
+    if(letter === 'e' || letter === 'k'|| letter === 'q'|| letter === 'w'){
         color = "gold"
     }
 
-    if(letter === 'c' || letter === 'f'|| letter === 'i'|| letter === 'l'|| letter === 'o'|| letter === 'r'){
-        color = "blue"
+    if(letter === 'f' || letter === 'l'|| letter === 'r'|| letter === 'x'){
+        color = "brown"
     }
 
 
