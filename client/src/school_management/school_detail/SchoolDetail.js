@@ -1,3 +1,5 @@
+// Display school details including its invoices and collections
+
 import { useContext, useState} from 'react'
 import Collection from './collection/Collection'
 import Invoice from './invoice/Invoice'
@@ -6,8 +8,14 @@ import AppContext from '../../context/AppContext'
 
 
 const SchoolDetail = () => {
+
+    // Get selected school from the Appcontext provider
     const {selectedSchool, invoices, collections} =  useContext(AppContext)
+
+    //  Get invoices of a specific school
     const [schoolInvoices, setSchoolInvoices] = useState(invoices.filter(invoice => invoice.schoolId === selectedSchool.id))
+   
+    // Get collections only for the selected school
     const schoolCollections = collections.filter(collection => collection.schoolId === selectedSchool.id)
 
   return (
@@ -15,6 +23,8 @@ const SchoolDetail = () => {
         <div className='details'>
             <div className='grid-container'>
                 <div><h1><i class="bi bi-buildings"></i> {selectedSchool.name}</h1></div>
+
+                {/* School details including the name, addresses, contact info */}
                 <div className='class-details'>
                     
                     <p><span className='icon-container lightpurple'><i class="bi bi-info-circle"></i></span><span><b>Type:</b> {selectedSchool.type}</span></p>
@@ -28,6 +38,7 @@ const SchoolDetail = () => {
             
         </div>
 
+    {/* Display invoices of the school */}
         <div className='invoice-collections'>
             <div className='invoices-container'>
                 <h2>Invoices</h2>
@@ -47,6 +58,7 @@ const SchoolDetail = () => {
                 
             </div>
 
+{/* Display collections of the school */}
             <div className='collections-container'>
                 <h2>Collections</h2>
                 <div>

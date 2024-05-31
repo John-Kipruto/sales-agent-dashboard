@@ -4,8 +4,10 @@ import AppContext from "../../context/AppContext"
 
 const SchoolBlock = ({school}) => {
 
+    // Get selected schools and enable setting of component to display
     const {setComponentToDisplay, setSelectedSchool} = useContext(AppContext)
 
+    // Set colors based on the first letter of the school name
     let letter = school.name.charAt(0).toLowerCase()
     let color = 'orange'
 

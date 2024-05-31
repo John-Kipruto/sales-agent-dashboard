@@ -3,13 +3,23 @@ import './colection.css'
 import { useContext, useState } from 'react'
 
 const Collection = ({collectionPassed}) => {
+
+    // Set color of the status text based on its value
     let color = "orange"
     if(collectionPassed.status === "valid"){
         color = "green"
     }
-    const {apiUrl, setCollections} = useContext(AppContext)
+
+    // Use the apiUrl to fetch data and set the global collections oncea collection is updated
+    // const {apiUrl, setCollections} = useContext(AppContext)
+
+    // Set component state to enable viewing of new data updated
     const [collection, setCollection] = useState(collectionPassed)
+
+    // Enable viewing and hiding of the update modal
     const [modalVisibility, setModalVisibility] = useState("hidden");
+
+    // Set the collection details when updated
     const [collectionDetails, setCollectionDetails] = useState({
 
         "id": collection.id,
@@ -30,10 +40,13 @@ const Collection = ({collectionPassed}) => {
         setModalVisibility("visible")
     }
 
+    // Set collection details to new data as they are being input
     const handleChange = (event) => {
         setCollectionDetails({...collectionDetails, [event.target.id]: event.target.value})
     }
 
+
+    // Mimic submition of data
     const handleSubmit = async (event) => {
         hideModal()
         event.preventDefault()
@@ -59,6 +72,8 @@ const Collection = ({collectionPassed}) => {
 
   return (
     <div className='collection'>
+
+        {/* Collection details */}
         <div>{collection.id}</div>
         <div>{collection.invoiceId}</div>
         <div>{collection.collectionDate}</div>
@@ -66,7 +81,7 @@ const Collection = ({collectionPassed}) => {
         <div>Ksh. {collection.amount}</div>
         <div><button onClick={showModal}><i class="bi bi-pencil"></i>Edit</button></div>
 
-
+{/* Collection modal */}
         <div className="modal" style={{visibility: `${modalVisibility}`}}>
           <div>
             

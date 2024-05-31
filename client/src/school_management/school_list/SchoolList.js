@@ -1,3 +1,5 @@
+// This code displays schools in a list form
+
 import { useContext } from 'react'
 import School from './school/School'
 import './school_list.css'

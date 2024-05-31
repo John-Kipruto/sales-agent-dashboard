@@ -12,8 +12,9 @@ function App() {
   // let apiUrl = "http://localhost:8888/.netlify/functions"
   let apiUrl = "https://sales-mi.netlify.app/.netlify/functions"
 
-  const [componentToDisplay, setComponentToDisplay] = useState("dashboard")
 
+// Global states to be used by all components from the Context provider
+  const [componentToDisplay, setComponentToDisplay] = useState("dashboard")
   const [collections, setCollections] = useState([])
   const [schools, setSchools] = useState([])
   const [invoices, setInvoices] = useState([])
@@ -56,6 +57,7 @@ function App() {
     }
   }
 
+  // Fetch all data once the app loads
   useEffect(() => {
     fetchCollections()
     fetchInvoices()

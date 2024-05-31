@@ -3,6 +3,8 @@ import PieChart from './PieChart'
 import './target_visualisation.css'
 import AppContext from '../../context/AppContext'
 
+
+// This component shows the different pie charts for each product
 const TargetVisualisation = () => {
     const {products} = useContext(AppContext)
   return (

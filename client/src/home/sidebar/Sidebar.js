@@ -3,6 +3,8 @@ import './sidebar.css'
 import AppContext from '../../context/AppContext'
 
 const Sidebar = () => {
+  
+  // Set component to display based on the id value of the dashboard contents
     const {setComponentToDisplay} = useContext(AppContext)
   return (
     <div className='sidebar-container'>

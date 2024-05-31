@@ -4,6 +4,8 @@ import Collections from './collections/Collections'
 import Signups from './signups/Signups'
 import BouncedCheques from './bounced_cheques/BouncedCheques'
 
+
+// This component returns the top cards shown
 const TopCardMetrics = () => {
   return (
     <div className="top-card-metrics">

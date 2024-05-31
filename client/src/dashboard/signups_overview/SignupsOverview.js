@@ -3,13 +3,18 @@ import BarChart from './BarChart'
 import './signups_overview.css'
 import AppContext from '../../context/AppContext'
 
+
+// This components displays the different bar graphs for different products
 const SignupsOverview = () => {
 
+    // Get all the products
     const {products} = useContext(AppContext)
 
   return (
     <div className="signups-overview">
         <h2>Signups Overview</h2>
+
+        {/* Display what the different colors represent for the different graphs */}
         <div className='color-contents'>
             <div className='color-info'>
                 <div className='color-container' style={{
