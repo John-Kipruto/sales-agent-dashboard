@@ -1,6 +1,8 @@
 .school-list{
     background-color: white;
     border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 30px 0;
 }
 
 .school-list .headers{

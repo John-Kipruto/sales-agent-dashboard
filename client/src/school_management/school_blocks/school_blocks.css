@@ -20,9 +20,10 @@
 
 .school-block h1{
     font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .school-block:hover{
-    background-color: rgb(243, 235, 191);
+    background-color: rgb(222, 220, 220);
     
 }

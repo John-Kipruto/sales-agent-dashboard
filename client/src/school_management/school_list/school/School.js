@@ -6,6 +6,16 @@ const School = ({school}) => {
 
   const {setComponentToDisplay, setSelectedSchool} = useContext(AppContext)
 
+  // Set color of the school type based on the type
+  let color = "lightgreen"
+
+  if(school.type.toLowerCase() === "primary"){
+    color = "lightblue"
+  }
+
+  if(school.type.toLowerCase() === "secondary"){
+    color = "lightred"
+  }
 
   const handleClick = () => {
     setSelectedSchool(school)
@@ -16,7 +26,7 @@ const School = ({school}) => {
     <div className='school'>
         <div>{school.id}</div>
         <div>{school.name}</div>
-        <div>{school.type}</div>
+        <div ><span className={color}>{school.type}</span></div>
         <div>{school.county}</div>
         <div><button onClick={handleClick}>View details</button></div>
     </div>

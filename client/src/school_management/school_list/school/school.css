@@ -9,11 +9,10 @@
 
 .school:hover{
     background-color: whitesmoke;
-    cursor: pointer;
 }
 
 .school button{
-    padding: 5px 10px;
+    padding: 7px 13px;
     border: none;
     background-color: blue;
     color: white;
@@ -23,4 +22,24 @@
 .school button:hover{
     background-color: green;
     cursor: pointer;
+}
+
+.school .lightblue{
+    background-color: lightblue;
+    color: blue;
+}
+
+.school .lightgreen{
+    background-color: rgb(189, 251, 189);
+    color: green;
+}
+
+.school .lightred{
+    background-color: rgb(249, 203, 203);
+    color: red;
+}
+
+.school span{
+    padding: 5px 10px;
+    border-radius: 5px;
 }
