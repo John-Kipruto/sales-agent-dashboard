@@ -12,7 +12,7 @@ const SchoolBlocks = () => {
 
   return (
     <div className='school-blocks'>
-        <h2>Schools</h2>
+        <h2 className='heading-title'>SCHOOLS REGISTERED</h2>
         <div className='grid-container'>
             {
                 schools.map(school => <SchoolBlock school={school} />)

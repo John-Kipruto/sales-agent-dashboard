@@ -9,7 +9,7 @@ const SchoolList = () => {
     const {schools} = useContext(AppContext) 
   return (
     <div className='school-list'>
-        <h2>School List</h2>
+        <h2 className='heading-title'>SCHOOL LIST</h2>
         <div className='school-list-container'>
             <div className='headers'>
                 <div><h4>ID</h4></div>

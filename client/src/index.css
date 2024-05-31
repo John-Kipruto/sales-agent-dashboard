@@ -15,9 +15,19 @@ ul{
 
 ::-webkit-scrollbar{
   width: 6px;
+  border-radius: 6px;
 }
 
 
 ::-webkit-scrollbar-thumb{
   background-color: rgb(31, 30, 29);
+}
+
+.heading-title{
+  color: blue;
+  width: 100%;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: rgb(222, 220, 220);
+  padding-bottom: 15px;
 }

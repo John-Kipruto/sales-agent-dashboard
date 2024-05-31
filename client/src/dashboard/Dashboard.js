@@ -8,7 +8,7 @@ import Extras from './extras/Extras'
 const Dashboard = () => {
   return (
     <div className="dashboard">
-        <h1>Dashboard</h1>
+        <h2 className='heading-title'>DASHBOARD</h2>
         <div className='components-container'>
           <TopCardMetrics />
           <div className='dashboard-grid-container'>
