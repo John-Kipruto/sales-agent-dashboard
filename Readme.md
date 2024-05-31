@@ -24,4 +24,5 @@ It is a responsive sales agent dashboard that facilitates the management of scho
 1. Fork and clone the repository.
 2. CD into the client folder
 3. Run `npm install` to install dependecies
-4. Run the command `netlify dev` to run the application
+4. Change the apiUrl value to your local netlify url in order to work with functions.
+5. Run the command `netlify dev` to run the application
