@@ -90,12 +90,19 @@
 .school-detail .invoice-headers{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-
+    padding: 20px 5px;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: rgb(227, 227, 227);
 }
 
 .school-detail .collection-headers{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+    padding: 20px 5px;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: rgb(227, 227, 227);
 }
 
 .school-detail .invoices, .school-detail .collections{

@@ -7,11 +7,11 @@ const PieChart = ({product}) => {
   // Set different color for the pie chart based on the product description
   let colors = []
   if(product.description === "finance"){
-    colors = ["silver", "grey"]
+    colors = ["silver", "green"]
   } else if(product.description === "analytics"){
-    colors=["black", "grey"]
+    colors=["silver", "purple"]
   } else{
-    colors = ["gold", "grey"]
+    colors = ["silver", "gold"]
   }
 
 return (
