@@ -52,7 +52,7 @@ const SchoolBlock = ({school}) => {
     }
 
     if(letter === 'k' || letter === 'v'){
-        color = "darkblue"
+        color = "lightblue"
     }
 
 
