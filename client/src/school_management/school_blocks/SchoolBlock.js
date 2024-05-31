@@ -11,28 +11,48 @@ const SchoolBlock = ({school}) => {
     let letter = school.name.charAt(0).toLowerCase()
     let color = 'orange'
 
-    if(letter === 'a' || letter === 'g' || letter === 'm' || letter === 's' ){
+    if(letter === 'a' || letter === 'l' || letter === 'w'  ){
         color = "green"
     }
 
-    if(letter === 'b' || letter === 'h'|| letter === 'n'|| letter === 't'|| letter === 'y'){
+    if(letter === 'b' || letter === 'm'|| letter === 'x'){
         color = "red"
     }
 
-    if(letter === 'c' || letter === 'i'|| letter === 'o'|| letter === 'u'|| letter === 'z'){
+    if(letter === 'c' || letter === 'n'|| letter === 'y'){
         color = "blue"
     }
 
-    if(letter === 'd' || letter === 'j'|| letter === 'p'|| letter === 'v'){
+    if(letter === 'd' || letter === 'o'|| letter === 'z'){
         color = "purple"
     }
 
-    if(letter === 'e' || letter === 'k'|| letter === 'q'|| letter === 'w'){
+    if(letter === 'e' || letter === 'p'){
         color = "gold"
     }
 
-    if(letter === 'f' || letter === 'l'|| letter === 'r'|| letter === 'x'){
+    if(letter === 'f' || letter === 'q'){
         color = "brown"
+    }
+
+    if(letter === 'g' || letter === 'r'){
+        color = "pink"
+    }
+
+    if(letter === 'h' || letter === 's'){
+        color = "yellow"
+    }
+
+    if(letter === 'i' || letter === 't'){
+        color = "indigo"
+    }
+
+    if(letter === 'j' || letter === 'u'){
+        color = "khaki"
+    }
+
+    if(letter === 'k' || letter === 'v'){
+        color = "darkblue"
     }
 
 
