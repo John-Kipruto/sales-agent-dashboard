@@ -32,7 +32,7 @@ const SchoolDetail = () => {
                     <p><span className='icon-container lightgreen'><i class="bi bi-calendar-date"></i></span><span><b> Registration Date:</b> {selectedSchool.registrationDate}</span></p>
                     <p><span className='icon-container lightblue'><i class="bi bi-envelope-at"></i></span><span><b> Email:</b> {selectedSchool.contactInfo.email}</span></p>
                     <p><span className='icon-container lightpurple'><i class="bi bi-telephone-forward"></i></span><span><b> Phone:</b> {selectedSchool.contactInfo.phone}</span></p>
-                    <p><button><i class="bi bi-pencil"></i> Update</button></p>
+                    {/* <p><button><i class="bi bi-pencil"></i> Update</button></p> */}
                 </div>
             </div>
             
