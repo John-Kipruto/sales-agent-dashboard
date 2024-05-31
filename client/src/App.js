@@ -9,8 +9,8 @@ import { useEffect, useState } from 'react';
 
 function App() {
 
-  let apiUrl = "http://localhost:8888/.netlify/functions"
-  // let apiUrl = "https://sales-mi.netlify.app/.netlify/functions"
+  // let apiUrl = "http://localhost:8888/.netlify/functions"
+  let apiUrl = "https://sales-mi.netlify.app/.netlify/functions"
 
 
 // Global states to be used by all components from the Context provider
