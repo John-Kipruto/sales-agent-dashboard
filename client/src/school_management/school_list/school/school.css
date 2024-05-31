@@ -9,6 +9,7 @@
 
 .school:hover{
     background-color: whitesmoke;
+    cursor: pointer;
 }
 
 .school button{

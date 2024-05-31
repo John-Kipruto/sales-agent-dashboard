@@ -23,7 +23,7 @@ const School = ({school}) => {
   }
 
   return (
-    <div className='school'>
+    <div onClick={handleClick} className='school'>
         <div>{school.id}</div>
         <div>{school.name}</div>
         <div ><span className={color}>{school.type}</span></div>
