@@ -2,6 +2,7 @@
     overflow-x: hidden;
     overflow-y: scroll;
     padding: 20px 5px;
+    max-height: 530px;
 }
 
 .upcoming-invoices::-webkit-scrollbar{
